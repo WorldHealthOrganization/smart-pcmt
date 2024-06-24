@@ -5,7 +5,7 @@ Characteristics: #can-be-target
 
 * identifier 0..* Identifier "Identifier for the generic product"
 * status 1..1 code "Product status" "The status of the product in the catalog e.g. 'active' 'inactive' "
-* productName 0..* BackboneElement
+* productName 0..* BackboneElement "The product Name(s)"
   * nameType 1..1 code "The type of name e.g. 'official' or 'user-friendly'"
   * name 1..1 string "The name of the product"
 * description 0..1 string "The description of the product"
