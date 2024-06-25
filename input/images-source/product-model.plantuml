@@ -1,0 +1,63 @@
+@startuml
+'skinparam linetype ortho
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+'!pragma layout smetana
+
+skinparam class<<MD>> {
+ BorderColor DarkSlateGray
+ BackgroundColor WhiteSmoke
+ HeaderBackgroundColor #909090
+}
+
+skinparam class<<TM>> {
+ BorderColor #505090
+ BackgroundColor APPLICATION
+ HeaderBackgroundColor SkyBlue
+}
+
+    class "** Generic Product **" as GP {
+        |_ identifier 0..* 
+        |_ status 1..1
+        |_ productName 0..*
+          |_ nameType 1..1
+          |_ name 1..1
+        |_ description 0..1
+        |_ classification 0..*
+        |_ family 1..1
+        |_ dosageForm 0..1
+        |_ strength 0..1
+        |_ soureOfAdministration 0..*  
+        --
+    }
+
+    class "** Regulated Product **" as RP {
+            |_ identifier 1..*  
+            |_ status 1..1
+        --
+    }
+
+
+    class "**Trade Item**" as TI {
+            |_ identifier 1..*  
+            |_ status 1..1
+            |_ tradeItemName 0..*
+              |_ nameType 1..1
+              |_ name 1..1
+            |_ manufacturerName 1..1
+            |_ manufacturerId 0..1
+            |_ countryOfOrigin 1..1
+            |_ shelfLife 0..1
+          --
+    }
+
+GP -r[hidden]- RP :"       "
+RP -d[hidden]- TI : "  "
+
+
+GP -- TI :"         "
+TI -- RP : "  "
+
+@enduml
