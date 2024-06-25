@@ -1,0 +1,211 @@
+{
+  "date" : "Tue, 25 Jun, 2024 08:39:44 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json",
+      "size" : 9439,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 15
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 98
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 470
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 82
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 73
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 73,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 77,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-GenericProduct.json",
+      "size" : 4943,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 42,
+          "length" : 86
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 43,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1151
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateLogicalMaps",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 163
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 1951
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 73,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-TradeItem.json",
+      "size" : 4374,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 42,
+          "length" : 74
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 43,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 43,
+          "length" : 41
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 58
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 179
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 116
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 413
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 73,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/resources/Binary-ImovaxPolio.json",
+      "size" : 394,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 29
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/resources/Binary-PolioVaxGeneric.json",
+      "size" : 587,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 25
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 24
+        }
+      ]
+    }
+  ]
+}

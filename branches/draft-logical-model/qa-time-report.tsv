@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json	9439	-	0	0	0	0	0	0	4	98	0	0	0	0	0	0	0	0	0	0	82	73	0	0	0	2	0	1
+fsh-generated/resources/StructureDefinition-GenericProduct.json	4943	86	1	0	0	0	0	19	0	77	0	0	1	0	0	1	0	1	0	0	163	1951	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-TradeItem.json	4374	74	0	0	1	0	0	41	0	58	0	0	0	0	0	0	0	0	0	0	116	413	0	0	0	3	0	0
+/fsh-generated/resources/Binary-ImovaxPolio.json	394	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	29	0	0	0	0	0	0
+/fsh-generated/resources/Binary-PolioVaxGeneric.json	587	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	24	0	0	0	0	0	0

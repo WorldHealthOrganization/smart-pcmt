@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "who.fhir.smart-ig-empty",
+    "type" : "ImplementationGuide",
+    "url" : "http://worldhealthorganization.github.io/smart/ImplementationGuide/who.fhir.smart-ig-empty",
+    "version" : "0.1.0",
+    "name" : "SMART"
+  },
+  {
+    "id" : "GenericProduct",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/GenericProduct",
+    "version" : "0.1.0",
+    "name" : "GenericProduct"
+  },
+  {
+    "id" : "TradeItem",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/TradeItem",
+    "version" : "0.1.0",
+    "name" : "TradeItem"
+  }
+]
