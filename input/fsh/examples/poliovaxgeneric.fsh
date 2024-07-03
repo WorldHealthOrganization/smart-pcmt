@@ -1,5 +1,5 @@
 Instance: PolioVaxGeneric
-InstanceOf: GenericProduct
+InstanceOf: GenericProductModel
 
 * status = #active
 * productName
@@ -14,11 +14,15 @@ InstanceOf: GenericProduct
 * strength.value = 62 
 * strength.unit = "D units"
 
+* unitOfUse = #tbl
+
 Instance: ImovaxPolio
-InstanceOf: TradeItem
+InstanceOf: TradeItemModel
 
 * status = #active
-* genericProduct = Reference(PolioVaxGeneric)
+* associatedGenericProduct
+  * genericProduct = Reference(PolioVaxGeneric)
+  * quantity.value = 1 
 * manufacturerName = "Sanofi Pasteur"
 
 * countryOfOrigin = #PT

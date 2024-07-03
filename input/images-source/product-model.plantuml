@@ -27,15 +27,10 @@ skinparam class<<TM>> {
         |_ description 0..1
         |_ classification 0..*
         |_ family 1..1
+        |_ unitOfUse 1..1
         |_ dosageForm 0..1
         |_ strength 0..1
-        |_ soureOfAdministration 0..*  
-        --
-    }
-
-    class "** Regulated Product **" as RP {
-            |_ identifier 1..*  
-            |_ status 1..1
+        |_ routeOfAdministration 0..*  
         --
     }
 
@@ -50,14 +45,13 @@ skinparam class<<TM>> {
             |_ manufacturerId 0..1
             |_ countryOfOrigin 1..1
             |_ shelfLife 0..1
+            |_ associatedGenericProduct 0..*
+              |_ genericProduct 1..1
+              |_ quantity 1..1
           --
     }
 
-GP -r[hidden]- RP :"       "
-RP -d[hidden]- TI : "  "
-
 
 GP -- TI :"         "
-TI -- RP : "  "
 
 @enduml
