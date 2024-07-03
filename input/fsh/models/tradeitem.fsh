@@ -3,6 +3,7 @@ Title: 		"TradeItem"
 Description:	"Trade Item"
 Characteristics: #can-be-target
 
+
 * identifier 0..* Identifier "Identifier for the trade item product"
 * status 1..1 code "Product status" "The status of the product in the catalog e.g. 'active' 'inactive' "
 * tradeItemName 0..* BackboneElement "The name of the trade item"
@@ -27,6 +28,6 @@ Characteristics: #can-be-target
   * number 1..1 Identifier "The identifier of the authorisation for the product"
   * region 1..1 CodeableConcept "The country or region where the authorisation is issued"
   * holder 1..1 BackboneElement "The organisation responsible for the product i.e. the grantee of the authorisation"
-    * id 1..1 Identifier "Identifier of the organisation"
+    * identifier 1..1 Identifier "Identifier of the organisation"
     * name 1..1 string "The official name of the organisation"
 
