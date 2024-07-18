@@ -24,5 +24,7 @@ InstanceOf: TradeItemModel
   * genericProduct = Reference(PolioVaxGeneric)
   * quantity.value = 1 
 * manufacturerName = "Sanofi Pasteur"
+* tradeItemName.nameType = #official
+* tradeItemName.name = "sanofi pasteur"
 
 * countryOfOrigin = #PT
