@@ -23,7 +23,3 @@ Characteristics: #can-be-target
 * associatedGenericProduct 0..* BackboneElement "Association(s) between the trade item and a generic product"
   * genericProduct 1..1 Reference(GenericProductModel) "The generic product characteristics"
   * quantity 1..1 Quantity "how many units of use of the generic product are in the trade item" // must update if the term "unitOfUse" changes
-
-/// attributes possibly for Regulated Item:
-* associatedRegulatoryAuthorization 0..* Reference(RegulatoryAuthorization) "associated regulatory authorization"
-
