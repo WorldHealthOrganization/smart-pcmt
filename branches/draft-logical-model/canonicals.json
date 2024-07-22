@@ -1,0 +1,44 @@
+[
+  {
+    "id" : "pcmt-glossary-cs",
+    "type" : "CodeSystem",
+    "url" : "http://worldhealthorganization.github.io/smart/CodeSystem/pcmt-glossary-cs",
+    "version" : "0.1.0",
+    "name" : "PCMTGlossary"
+  },
+  {
+    "id" : "who.fhir.smart-ig-empty",
+    "type" : "ImplementationGuide",
+    "url" : "http://worldhealthorganization.github.io/smart/ImplementationGuide/who.fhir.smart-ig-empty",
+    "version" : "0.1.0",
+    "name" : "SMART"
+  },
+  {
+    "id" : "GenericProductModel",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/GenericProductModel",
+    "version" : "0.1.0",
+    "name" : "GenericProductModel"
+  },
+  {
+    "id" : "RegulatedTradeItem",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/RegulatedTradeItem",
+    "version" : "0.1.0",
+    "name" : "RegulatedTradeItem"
+  },
+  {
+    "id" : "TradeItem",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/TradeItem",
+    "version" : "0.1.0",
+    "name" : "TradeItem"
+  },
+  {
+    "id" : "TradeItemModel",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/TradeItemModel",
+    "version" : "0.1.0",
+    "name" : "TradeItemModel"
+  }
+]

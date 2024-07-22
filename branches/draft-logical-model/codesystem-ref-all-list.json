@@ -1,0 +1,39 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/inventoryitem-nametype",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "InventoryItemNameType",
+      "title" : "InventoryItem Name Type",
+      "description" : "InventoryItem Name Type",
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-inventoryitem-nametype.html" : "InventoryItem Name Typess"
+    },
+    {
+      "url" : "http://hl7.org/fhir/inventoryitem-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "InventoryItemStatus",
+      "title" : "InventoryItem Status Codes",
+      "description" : "InventoryItem Status Codes",
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-inventoryitem-status.html" : "InventoryItem Status Codes"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
+    }
+  ]
+}

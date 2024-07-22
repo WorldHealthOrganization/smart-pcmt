@@ -1,0 +1,34 @@
+SMART
+=========================================
+
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/TradeItem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Binary/ImovaxPolio.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PolioVaxGeneric.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/Binary-ImovaxPolio.json: line 21, col 4, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/Binary-ImovaxPolio.json: line 6, col 8, Error - Unable to resolve resource with reference 'http://worldhealthorganization.github.io/smart/StructureDefinition/GenericProductModel/PolioVaxGeneric' (STRUCTURE)
+/github/workspace/fsh-generated/resources/Binary-PolioVaxGeneric.json: line 10, col 4, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/Binary-PolioVaxGeneric.json: line 37, col 4, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/Binary-PolioVaxGeneric.json: line 26, col 4, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/Binary-PolioVaxGeneric.json: line 18, col 6, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/CodeSystem-pcmt-glossary-cs.json: line 0, col 0, Info - CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-pcmt-glossary-cs.json: line 1, col 1156, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-pcmt-glossary-cs.json: line 1, col 1156, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present (REQUIRED)
+/github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json: line 1, col 115, Error - Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json: line 1, col 12888, Warning - Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 72077, Info - The code 'pattern' is valid but is deprecated (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 84946, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 103067, Info - The code 'pattern' is valid but is deprecated (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 116018, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 122988, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 134710, Info - The code 'pattern' is valid but is deprecated (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 135169, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 135291, Info - The code 'pattern' is valid but is deprecated (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 135759, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 1, col 136235, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-TradeItem.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+
+err = 2, warn = 21, info = 5
+IG Publisher Version: 1.6.18

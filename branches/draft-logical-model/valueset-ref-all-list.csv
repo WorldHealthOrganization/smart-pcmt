@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/all-languages,5.0.0,active,"2.16.840.1.113883.4.642.3.21",AllLanguages,All Languages,"This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)","StructureDefinition/TradeItem","hl7.terminology"
+http://hl7.org/fhir/ValueSet/inventoryitem-nametype,5.0.0,draft,,InventoryItemStatusCodes,InventoryItem Name Typess,"InventoryItem Name Types","StructureDefinition/TradeItem","hl7.fhir.r5.core"
+http://hl7.org/fhir/ValueSet/inventoryitem-status,5.0.0,draft,,InventoryItemStatusCodes,InventoryItem Status Codes,"InventoryItem Status Codes","StructureDefinition/TradeItem","hl7.fhir.r5.core"
+http://hl7.org/fhir/ValueSet/languages,5.0.0,active,"2.16.840.1.113883.4.642.3.891,2.16.840.1.113883.4.642.3.20",CommonLanguages,Common Languages,"This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)","StructureDefinition/TradeItem","hl7.terminology"
