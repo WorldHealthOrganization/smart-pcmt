@@ -1,6 +1,6 @@
-Logical: 	RegulatoryAuthorization
-Title: 		"Regulatory Authorization"
-Description:	"Authorisation for the product for a given region or country"
+Logical: 	RegulatedTradeItem
+Title: 		"Regulated Trade Item"
+Description:	"Authorisation for the trade item for a given region or country"
 
 * number 1..1 Identifier "The identifier of the authorisation for the product"
 * region 1..1 CodeableConcept "The country or region where the authorisation is issued"
