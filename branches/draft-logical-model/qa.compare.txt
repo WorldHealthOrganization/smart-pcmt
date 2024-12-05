@@ -1,0 +1,59 @@
+SMART : Validation Results
+=========================================
+
+err = 2, warn = 27, info = 5
+$--
+Generated $--. FHIR version $-- for who.fhir.smart-ig-empty#$-- (canonical = http://worldhealthorganization.github.io/smart)
+ Build Errors : 0 / 6 / 0
+ /github/workspace/fsh-generated/resources/Binary-ImovaxPolio : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/Binary-PolioVaxGeneric : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-pcmt-glossary-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-GenericProductModel : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-RegulatedTradeItem : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-TradeItem : 0 / 13 / 5
+ /github/workspace/fsh-generated/resources/StructureDefinition-TradeItemModel : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/TradeItem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/ImovaxPolio.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PolioVaxGeneric.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-ImovaxPolio.json ==
+WARNING: Binary/ImovaxPolio: TradeItemModel.countryOfOrigin.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Binary/ImovaxPolio: TradeItemModel.associatedGenericProduct[0].genericProduct: Unable to resolve resource with reference 'http://worldhealthorganization.github.io/smart/StructureDefinition/GenericProductModel/PolioVaxGeneric'
+== fsh-generated/resources/Binary-PolioVaxGeneric.json ==
+WARNING: Binary/PolioVaxGeneric: GenericProductModel.family.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Binary/PolioVaxGeneric: GenericProductModel.unitOfUse.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Binary/PolioVaxGeneric: GenericProductModel.dosageForm.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Binary/PolioVaxGeneric: GenericProductModel.routeOfAdministration[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+== fsh-generated/resources/CodeSystem-pcmt-glossary-cs.json ==
+INFORMATION: CodeSystem/pcmt-glossary-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/pcmt-glossary-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/pcmt-glossary-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json ==
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide)
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-GenericProductModel.json ==
+== fsh-generated/resources/StructureDefinition-RegulatedTradeItem.json ==
+== fsh-generated/resources/StructureDefinition-TradeItem.json ==
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[20].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[30].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[48].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[58].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[64].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.differential.element[6].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.differential.element[9].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[11].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/TradeItem: StructureDefinition: The definition builds on 'http://hl7.org/fhir/StructureDefinition/InventoryItem' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[9].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[10].binding: The definition for the element 'InventoryItem.status' binds to the value set 'http://hl7.org/fhir/ValueSet/inventoryitem-status|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[20].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[48].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://worldhealthorganization.github.io/smart/StructureDefinition/TradeItem'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-TradeItemModel.json ==
