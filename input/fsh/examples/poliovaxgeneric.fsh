@@ -6,8 +6,8 @@ InstanceOf: GenericProductModel
   * nameType = #official
   * name = "Polio"
 
-* family = #medication
-* family = #vaccine
+//* family = #medication
+//* family = #vaccine
 
 * routeOfAdministration = #intramuscular
 * dosageForm = #solution-for-injection
