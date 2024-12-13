@@ -1,5 +1,6 @@
 Profile: TradeItem
 Parent: InventoryItem
+Description: "Trade item profile"
 
 * identifier 1.. MS
 * status MS
