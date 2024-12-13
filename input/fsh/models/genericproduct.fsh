@@ -10,7 +10,7 @@ Characteristics: #can-be-target
   * name 1..1 string "The name of the product"
 * description 0..1 string "The description of the product"
 * classification 0..* CodeableConcept "A categorization or classification of the product e.g. ATC or others"
-* family 1..1 CodeableConcept "the family e.g. device, medication..."
+//* family 1..1 CodeableConcept "the family e.g. device, medication..."
 * unitOfUse 1..1 CodeableConcept "The unit in which the generic product is used / counted" // do we have a better name?
 
 * dosageForm 0..1 CodeableConcept "The physical form of the medication"
