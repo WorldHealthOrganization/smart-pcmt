@@ -1,0 +1,11 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json	10715	-	0	0	0	0	0	0	4	117	0	0	0	0	0	0	0	1	0	0	87	64	0	0	0	1	0	1
+fsh-generated/resources/CodeSystem-pcmt-glossary-cs.json	403	35	1	0	1	1	0	0	0	32	0	0	0	0	0	0	0	0	0	0	16	2517	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-GenericProduct.json	5961	35	0	0	0	0	0	69	0	125	0	0	1	0	0	0	0	2	0	0	552	2525	0	0	0	7	0	1
+fsh-generated/resources/StructureDefinition-GenericProductModel.json	5125	33	0	0	0	0	0	23	0	39	0	0	0	0	0	0	0	0	0	0	104	235	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-RegulatedTradeItem.json	4396	20	0	0	0	0	0	81	0	58	0	0	0	0	0	0	0	1	0	0	379	747	0	0	0	5	0	2
+fsh-generated/resources/StructureDefinition-RegulatedTradeItemModel.json	3870	8	1	0	0	0	0	31	0	33	0	0	0	0	0	0	0	0	0	0	85	145	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-TradeItem.json	4167	8	0	0	0	0	0	76	0	48	0	0	0	0	0	0	0	1	0	0	371	486	0	0	0	5	0	1
+fsh-generated/resources/StructureDefinition-TradeItemModel.json	5552	8	0	0	0	0	0	36	0	35	0	0	0	0	0	0	0	1	0	0	167	235	0	1	0	2	0	0
+/fsh-generated/resources/Binary-ImovaxPolio.json	611	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	13	0	0	0	0	0	0
+/fsh-generated/resources/Binary-PolioVaxGeneric.json	591	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	10	0	0	0	0	0	0

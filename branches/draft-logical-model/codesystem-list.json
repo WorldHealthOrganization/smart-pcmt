@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://worldhealthorganization.github.io/smart/CodeSystem/pcmt-glossary-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PCMTGlossary",
+      "title" : "PCMT Term glossary",
+      "description" : "Glossary."
+    }
+  ]
+}

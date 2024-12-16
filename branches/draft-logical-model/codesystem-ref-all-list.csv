@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/inventoryitem-nametype,5.0.0,active,,InventoryItemNameType,InventoryItem Name Type,"InventoryItem Name Type","ValueSet/inventoryitem-nametype"
+http://hl7.org/fhir/inventoryitem-status,5.0.0,active,,InventoryItemStatus,InventoryItem Status Codes,"InventoryItem Status Codes","ValueSet/inventoryitem-status"
+urn:ietf:bcp:47,2.0.1,active,"2.16.840.1.113883.6.121",Ietf3066,Tags for the Identification of Languages,"Older value from OID registry.  Superceded; see recommendations in BCP-47.","ValueSet/languages,ValueSet/all-languages"
