@@ -1,5 +1,5 @@
-id: who.fhir.smart-ig-empty
-canonical: http://worldhealthorganization.github.io/smart
+id: smart.who.int.pcmt
+canonical: http://smart.who.int/pcmt
 name: SMART
 title: SMART Empty IG
 description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
