@@ -1,6 +1,6 @@
-Logical: 	RegulatedTradeItemModel
-Title: 		"Regulated Trade Item"
-Description:	"Authorisation for the trade item for a given region or country"
+Logical: 	RegulatedItemModel
+Title: 		"Regulated Item"
+Description:	"Authorised product or item for a given region or country"
 Characteristics: #can-be-target
 
 * number 1..1 Identifier "The identifier of the authorisation for the product"

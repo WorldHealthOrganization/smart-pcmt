@@ -26,12 +26,10 @@ skinparam class<<TM>> {
           |_ name 1..1
         |_ description 0..1
         |_ classification 0..*
-        |_ family 1..1
         |_ unitOfUse 1..1
         |_ dosageForm 0..1
         |_ strength 0..1
         |_ routeOfAdministration 0..*  
-        --
     }
 
 
@@ -45,11 +43,28 @@ skinparam class<<TM>> {
             |_ manufacturerId 0..1
             |_ countryOfOrigin 1..1
             |_ shelfLife 0..1
-            |_ associatedGenericProduct 0..*
+            |_ associatedGenericProduct 0..*  
               |_ genericProduct 1..1
               |_ quantity 1..1
-          --
+            |_  contains 0..*
+              |_ tradeItem 1..1
+              |_ quantity 1..1
     }
+
+
+    class "** Regulated Item Authorisation **" as RI {
+        |_ identifier 1..*  
+        |_ region 1..1
+        |_ holder 0..*
+          |_ identifier 1..1
+          |_ name 1..1
+        |_ associatedProduct 0..*
+          |_ genericProduct 1..1
+          |_ quantity 1..1
+        |_ validityPeriod 0..1
+    }
+
+
 
 
 GP -- TI :"         "
