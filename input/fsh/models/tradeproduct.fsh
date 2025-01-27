@@ -18,9 +18,16 @@ Characteristics: #can-be-target
 * manufacturerId 0..1 Identifier "The unique id of the manufacturer"
 * countryOfOrigin 1..1 CodeableConcept "The country of origin"
 * shelfLife 0..1 SimpleQuantity "The shelf life of the trade product in days"
+* unitOfUse 1..1 CodeableConcept "The unit in which the generic product is used / counted"
+  // do we have a better name?
+* doseQuantity 0..1 SimpleQuantity "The number of doses in this package"
+* strength 0..1 SimpleQuantity "The strength of the product e.g. 500 mg"
 * associatedGenericProduct 0..* BackboneElement "Association(s) between the trade product and a generic product"
   * genericProduct 1..1 Reference(GenericProductModel) "The generic product characteristics"
-  * quantity 1..1 Quantity "how many units of use of the generic product are in the trade product" // must update if the term "unitOfUse" changes
+  * quantity 1..1 Quantity "how many units of use of the generic product are in the trade product"
+    // must update if the term "unitOfUse" changes
+* packageType 0..1 CodeableConcept "If this trade product is a package of other trade products, then the this represents the type of package (e.g. #vial, #inner_pack, #case)"
 * packageContains 0..* BackboneElement "Intended for use if this trade product is a package, kit, or comprised of other trade products. This captures relationship between trade products where a trade product that "
   * tradeProduct 1..1 Reference(TradeProductModel) "A trade product that is included in the package"
-  * quantity 1..1 Quantity "how many units of use of the trade product in this package" // must update if the term "unitOfUse" changes
+  * quantity 1..1 Quantity "how many units of use of the trade product in this package"
+    // must update if the term "unitOfUse" changes
