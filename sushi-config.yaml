@@ -1,8 +1,8 @@
 id: smart.who.int.pcmt
 canonical: http://smart.who.int/pcmt
-name: SMART
-title: SMART Empty IG
-description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
+name: SMARTPCMT
+title: SMART Product Catalog
+description: Data exchange specifications for Product Catalog supporting the SMART Guidelines
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
