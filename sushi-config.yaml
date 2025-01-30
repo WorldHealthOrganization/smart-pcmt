@@ -258,3 +258,7 @@ menu:
 #   setId: always # always | standalone-only
 dependencies:
   smart.who.int.base: current
+  ihe.iti.mcsd: 
+   id: IHE_ITI_mCSD
+   uri: https://profiles.ihe.net/ITI/mCSD/ImplementationGuide/ihe.iti.mcsd 
+   version: 3.8.0

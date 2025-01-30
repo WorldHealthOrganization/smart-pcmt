@@ -7,5 +7,5 @@ Characteristics: #can-be-target
 * status 1..1 code "Product status" "The status of the regulated product e.g. 'active' 'inactive' "
 * jurisdiction 1..1 CodeableConcept "The jurisidiction (e.g. country, economic commuinity or region) where the authorisation is issued"
 * holder 1..1 Reference(IHE.mCSD.Organization) "The organisation responsible for the product i.e. the grantee of the authorisation"
-* associatedTradeProduct 0..* Reference(TradeProductModel) "Associated Trade Product"
+* tradeProduct 0..* Reference(TradeProductModel) "Associated Trade Product"
 * validityPeriod 0..1 Period "Validity Period"
