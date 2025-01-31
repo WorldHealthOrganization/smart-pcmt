@@ -1,0 +1,17 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-smart.who.int.pcmt.json	11922	-	0	0	0	0	0	0	4	83	0	0	0	0	0	0	0	1	0	0	65	72	0	0	0	2	0	1
+fsh-generated/resources/CodeSystem-AttributeType.json	429	13	1	0	0	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	17	3492	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-ProductRelationship.json	1547	9	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	18	118	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-RegulatationType.json	470	7	0	0	0	0	0	0	1	21	0	0	0	0	0	0	0	0	0	0	15	75	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-Status.json	442	9	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	14	70	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-pcmt-glossary-cs.json	382	9	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	16	73	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-GenericProduct.json	5940	15	1	0	0	0	0	69	0	127	0	0	0	0	0	0	0	1	0	0	255	2010	0	0	0	14	0	1
+fsh-generated/resources/StructureDefinition-Product.json	11084	15	0	0	1	0	0	30	0	49	0	0	1	0	0	0	0	1	0	0	135	353	0	0	0	7	0	0
+fsh-generated/resources/StructureDefinition-ProductAuthorization.json	4449	11	0	0	0	0	0	29	0	19	0	0	0	0	0	0	0	0	0	0	45	126	0	0	1	2	0	0
+fsh-generated/resources/StructureDefinition-RegulatedTradeItem.json	4375	12	0	0	0	0	0	111	0	36	0	0	0	0	0	0	0	0	0	0	207	539	0	0	0	11	0	2
+fsh-generated/resources/StructureDefinition-TradeItem.json	4146	12	0	0	0	0	0	60	0	33	0	0	0	0	0	0	0	1	0	0	203	440	0	0	0	10	0	1
+fsh-generated/resources/ValueSet-AttributeType.json	374	8	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0	1	0	0	20	8639	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-NameType.json	343	8	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	20	68	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ProductRelationship.json	408	9	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	19	69	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-RegulationType.json	409	8	1	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	20	467	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-Status.json	339	9	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	19	77	0	0	0	0	0	0
