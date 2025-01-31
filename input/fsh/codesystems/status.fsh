@@ -1,6 +1,6 @@
-CodeSystem: status
-Title: "Trade Product and Regulatory Status"
-Description: "Trade Product and Regulatory Status"
+CodeSystem: Status
+Title: "Product and regulatory authorization status"
+Description: "Product and regulatory authorization status"
 
 * #active
 * #in-active

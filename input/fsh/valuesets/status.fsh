@@ -1,7 +1,7 @@
 
-ValueSet: status
-Title : "Status for a Trade Product"
-Description: "Trade Product status"
+ValueSet: Status
+Title : "Status for a Product"
+Description: "Product status"
 
 
-* include codes from system status
+* include codes from system Status
