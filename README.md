@@ -17,4 +17,4 @@ This is an ImplementationGuide for the Product Catalogue requirements for the SM
 ## Changes and feedback
  
 Feedback and issues about this empty framework can be submitted via the [issues](issues) page, and will be incorporated into subsequent releases.
-
+ 
