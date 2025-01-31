@@ -1,5 +1,5 @@
 Logical: ProductAuthorization Title: "Product Authorization"
-Description: "A record of authorization or compliance for one or more Products with a set oof regulatory, policy, (pre-)qualification, or legal requirements."
+Description: "A record of authorization or compliance for one or more Products with a set of regulatory, policy, (pre-)qualification, or legal requirements."
 Characteristics: #can-be-target
 
 
