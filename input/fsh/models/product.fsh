@@ -26,12 +26,11 @@ Characteristics: #can-be-target
 * doseQuantity 0..1 SimpleQuantity "The number of doses in this package"
 * strength 0..1 SimpleQuantity "The strength of the product e.g. 500 mg"
 
-* attribute 0..* BackboneElement "Attributes or characterisitics of the product"
+* attribute 0..* BackboneElement "Other attributes or characterisitics of the product not otherwise captured"
   * type 1..1 CodeableConcept "The attribute type (e.g. a physcial dimension)"
   * type from AttributeType (extensible)
   * value[x] 1..1 string or integer or decimal or boolean or url or dateTime or Range or Ratio or Annotation or Address or Duration or CodeableConcept "The value of the attribute"
 
-//  * value[x] 1..1 string or integer "The value of the attribute"
 
 * associatedProduct 0..* BackboneElement "Association(s) between a product and referenced products. Such relationships could be for packaging, representing duplicates/semantic equivalencies between Products, etc"
   * product 1..1 Reference(Product) "The generic product characteristics"
