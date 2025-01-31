@@ -1,7 +1,7 @@
-Alias: $regulationType = http://smart.who.int/pcmt/CodeSystem/regulationType
-ValueSet: regulationType
-Title : "Regulation Type for a Regulated Trade Product"
-Description: "Regulated Trade Product Regulation type"
+Alias: $regulationType = http://smart.who.int/pcmt/CodeSystem/RegulationType
+ValueSet: RegulationType
+Title : "Regulation Type for a Regulated Product"
+Description: "Regulated Product Regulation type"
 
 
 * include codes from system $regulationType
