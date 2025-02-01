@@ -3,4 +3,6 @@ set -e
 
 sh presushi.sh
 
-sushi
+sh _genonce.sh
+
+
