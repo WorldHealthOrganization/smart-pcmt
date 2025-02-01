@@ -24,8 +24,8 @@ group PreQualDBtoProductLM(source prequal: PreQualDB, target product : Product) 
         product.doseQuantity.value =  numDoses "set number of doses";
         product.unitOfUse.coding.code = #doses;				  
    }
-   prequal.vaccineType as vaccineType then {
-        product.classification = vaccineType "set vaccine type as product clasification";
+   prequal.vaxTypeCode as vaxTypeCode then {
+        product.classification = vaxTypeCode "set vaccine type as product clasification";
    }
    prequal.presentation as presentation then {
         product.dosageForm = presentation;

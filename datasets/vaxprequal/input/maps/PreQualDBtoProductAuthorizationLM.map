@@ -4,30 +4,34 @@ uses "http://smart.who.int/icvp/StructureDefinition/ProductAuthorization" alias 
 
 
 
-group PreQualDBtoProductAuthorizationLM(source prequal: PreQualDB, target product : ProductAuthoization) {
-   prequal.number as number then {
-   	product.number = number "set number"
-   }
-   prequal.commercialName as name then {
-        product.name = name "set name";
-   }
-   prequal.manufacturer as manufacturer then {
-   	product.manufacturer.text = manufacturer "set manufacturer name";
+
+* number 0..1 Identifier "The identifier of the authorisation for the Products"
+* status 1..1 code "Product status" "The status of the authoriation e.g. 'active' 'inactive' "  
+* status from Status (extensible)
+* type 1..1 code "Regulation type" "The type of authorization (e.g. pre-qualification)"
+* type from RegulationType  (extensible)
+* jurisdiction 1..* CodeableConcept "The jurisidiction(s) (e.g. country, economic commuinity or region) where the authorisation is issued"
+* holder 1..1 Reference(IHE.mCSD.Organization) "The organisation responsible for the product i.e. the grantee of the authorisation"
+* product 1..* Reference(Product) "Products that are covered under this authorization"
+* validityPeriod 0..1 Period "Validity Period of this authorization"
+
+
+group PreQualDBtoProductAuthorizationLM(source prequal: PreQualDB, target productAuth : ProductAuthoization) {
+   prequal as prequal then {
+   	productAuth.status = #active "set status";
+	productAuth.type = #prequal "set type";
+	productAuth.jurisdiction.coding.display = "WHO" "set jurisdiction";
    }
    prequal.index as index then {
-        product.identifier = id('https://extranet.who.int/prequal/vaccines/prequalified-vaccines',index) "set product id"
+   	productAuth.number = index "set number/index";
+        prequal.vaxTypeCode as vaxTypeCode then {
+           productAuth.product = Reference(resolve(vaxTypeCode + "Product" + index.value )  "Set Product reference";
+        }		       
    }
-   prequal.manufacturerReference as manufacturerReference then {
-   	product.manufacturer = manufacturerReference "set manufacturer reference";
+   prequal.responsibleNRAReference as respNRARef then {
+   	productAuth.holder = respNRARef "set national regulatory authority holder";
    }
-   prequal.numDoses as numNoses then {
-        product.doseQuantity.value =  numDoses "set number of doses";
-        product.unitOfUse.coding.code = #doses;				  
-   }
-   prequal.vaccineType as vaccineType then {
-        product.classification = vaccineType "set vaccine type as product clasification";
-   }
-   prequal.presentation as presentation then {
-        product.dosageForm = presentation;
+   prequal.validityPeriod as validityPeriod then {
+        productAuth.validityPeriod = validityPeriod "set validity period";
    }
 }
