@@ -172,7 +172,6 @@ NR > 1{
   CMD|getline MD5HOLDER
   close(CMD)
 
-  COUNTRY=gensub(/"/, "", "g" , $7)
   COMMERCIALNAME=gensub(/"/, "", "g" , $3)
 
 
