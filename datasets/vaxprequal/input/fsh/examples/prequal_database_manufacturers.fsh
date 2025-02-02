@@ -1,363 +1,363 @@
 Alias: $orgType = http://terminology.hl7.org/CodeSystem/organization-type
 
-Instance: Manufacturer2861c762e570422c9a439d2e146ef1e9
+Instance: Manufacturer5dc54242e07048dc1f0433b45d61957c  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "AJ Vaccines A/S"
 * type = $orgType#other
 
-Instance: Manufacturerd2113c7f14dd346f92ebf77f96935322
+Instance: Manufactureraaca2980acaa19a41085d36efc6a5a84  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Abbott Biologicals BV"
 * type = $orgType#other
 
-Instance: Manufacturer967d3d36fa4b4a47b110511d7f596d9a
+Instance: Manufacturer888ff5801a2f43bd6f2123419e61cb87  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "AstraZeneca Pharmaceuticals LP."
 * type = $orgType#other
 
-Instance: Manufacturer2585f5811b96894d7db293b0d615bb70
+Instance: Manufacturer7e1075439f93207b76e283af4e5a96d5  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "BB- NCIPD Ltd. (Bul Bio-National Center of Infectious and Parasitic Diseases Ltd.)"
 * type = $orgType#other
 
-Instance: Manufacturerb10be994cf96fb2336833b00f003c781
+Instance: Manufacturer49ba2034b576b9b30559303e880f9bc7  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Bavarian Nordic A/S"
 * type = $orgType#other
 
-Instance: Manufacturer2d992993bbbada34f402e9f6bcf502f9
+Instance: Manufacturereb31bd403f002800b14da9b2662b321c  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Beijing Institute of Biological Products Co., Ltd."
 * type = $orgType#other
 
-Instance: Manufacturer3de533d1ec8864ae7870eec52fa36f5f
+Instance: Manufacturer23f34f1a92ebdeb8c55ddd34c31ad564  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Bharat Biotech International Limited"
 * type = $orgType#other
 
-Instance: Manufacturerfefd8c6591ca9269680a9eed305f1768
+Instance: Manufacturer55274c2798a58a47931eded531726f10  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Bilthoven Biologicals B.V."
 * type = $orgType#other
 
-Instance: Manufacturer51a62ec68a89ce14cf95679495b66719
+Instance: Manufacturer2633085cce399745d9a840a0e7459e1a  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Bio-Manguinhos/Fiocruz"
 * type = $orgType#other
 
-Instance: Manufacturer86dfcfa49ee9bc21ba7d3f39bcd16088
+Instance: Manufacturere9bbc99629b5c4f5c92009585b5deb4d  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "BioNTech Manufacturing GmbH"
 * type = $orgType#other
 
-Instance: Manufacturer890d3908ec053a76141fdda37d251358
+Instance: Manufacturer54a4cbdf74f251158fb034e8f5e1ff5b  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Biological E. Limited"
 * type = $orgType#other
 
-Instance: Manufacturered6da65a10ba47d41a68dc24525ab5c4
+Instance: Manufacturer82c7442fbfbfbbeb896a735055627e6d  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Centro de Ingenieria Genetica y Biotecnologia"
 * type = $orgType#other
 
-Instance: Manufactureref4ebd6887468425e609c837fd64c975
+Instance: Manufacturer12d56c4b3ef5d1e2309e872e111b62f5  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Changchun Institute of Biological Products Co., Ltd"
 * type = $orgType#other
 
-Instance: Manufacturer8ca6c2b4b28bd7ccdf56e1771bbe1c50
+Instance: Manufacturer8b73ac0f00c49a2623f9e9aee2c60cad  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Chengdu Institute of Biological Products Co.,Ltd"
 * type = $orgType#other
 
-Instance: Manufacturer8de51899c0f1de0e1d12f8e6113dab08
+Instance: Manufacturercb2d11a53a6d9504a6a08ab51b9aabe7  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "EuBiologics Co., Ltd."
 * type = $orgType#other
 
-Instance: Manufacturer9f078889f4903702762d00303f0ff713
+Instance: Manufacturer862ceefb75480e8caff5b111610aceb0  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Federal State Autonomous Scientific Institution «Chumakov Federal Scientific Center for Research & Development of Immune-And Biological Products», Russian Academy of Sciences"
 * type = $orgType#other
 
-Instance: Manufacturer276d2e4e45134d0b90fed7fbf1a8ab42
+Instance: Manufacturer0ac2fc7e2f3857eea1bd0d6fe3e1e432  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "GC Biopharma Corp."
 * type = $orgType#other
 
-Instance: Manufacturer4aae9edcf98a96e279fa66b5aea8734b
+Instance: Manufacturer214b31a3bf30c1816fab7b3f39ca25c9  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "GlaxoSmithKline Biologicals SA"
 * type = $orgType#other
 
-Instance: Manufacturer678c4e5ce93124225bcbea0ae277657f
+Instance: Manufacturer9dc14eaedd939584bb18ed5514df50e4  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "GlaxoSmithKline Vaccines S.r.l."
 * type = $orgType#other
 
-Instance: Manufacturerec552798f4f5cdcf689ae9f0a1b981c9
+Instance: Manufacturerda09c528947d845f1825eb19e76df745  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Global Biotech Products Co., Ltd"
 * type = $orgType#other
 
-Instance: Manufacturerce2c4cc477f0be37762e7c163ae38619
+Instance: Manufacturer809ba2c9dd16700daf4b638fb948b814  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "GreenSignal Bio Pharma Pvt Limited"
 * type = $orgType#other
 
-Instance: Manufacturerbd99ce55512e9b74ff81f3da5264924c
+Instance: Manufacturer8c92e4ffbcf50b35012bfe88689a06e3  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "HIPRA HUMAN HEALTH, S.L.U"
 * type = $orgType#other
 
-Instance: Manufacturer58b7a037851c2368f282dfc79396bab7
+Instance: Manufacturer42565af3e1da9c8e2b48128dd0b2b292  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Haffkine Bio Pharmaceutical Corporation Ltd"
 * type = $orgType#other
 
-Instance: Manufacturer9665a97e22c6e4be184702aa67d9cbe9
+Instance: Manufacturer63659ae1ce5592ff2ebd6cd35241e1f4  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Hualan Biological Bacterin Inc."
 * type = $orgType#other
 
-Instance: Manufacturerf9f224bc27689ea68ccb637fbb1bdcbe
+Instance: Manufacturer0d032e80ab9a533ed8120bd60488bb9d  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "IL-YANG PHARMACEUTICAL CO., LTD."
 * type = $orgType#other
 
-Instance: Manufacturerfca41003618e5d38b1d6e5d20833ca98
+Instance: Manufacturer4ce2190fca5ae4fbb2ce66bf52affe15  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Institut Pasteur de Dakar"
 * type = $orgType#other
 
-Instance: Manufacturerb106bc6348d33747910cb3b5f5cba551
+Instance: Manufacturerd90d3c2e85175f2d2bde5bd3ff4f83e3  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Instituto Butantan"
 * type = $orgType#other
 
-Instance: Manufacturer424af495e78f8d5efdacca2db1db8f9b
+Instance: Manufactureraca8ee84737803adc7e1b19a498b8fb9  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Janssen Cilag International N.V."
 * type = $orgType#other
 
-Instance: Manufacturer334025546a397e71698d7423a6bd98d6
+Instance: Manufacturerb9ce4b3161c0bb54b370a457d22926e0  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Japan BCG Laboratory"
 * type = $orgType#other
 
-Instance: Manufacturer29572539ce532a0953cc4d2accb7c34a
+Instance: Manufacturer83c80215b20b5251e1c62eac65c9e90a  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "LG Chem Ltd"
 * type = $orgType#other
 
-Instance: Manufacturerbb9ce89d45920603ccfcff0bfebb8001
+Instance: Manufacturer1de7214fcf73be7aeabd3d60abbd51bf  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "MedImmune"
 * type = $orgType#other
 
-Instance: Manufacturer6ac873e2c3883c85ec03dd0edc89ba75
+Instance: Manufacturer764b91fadf395103d4ce901372cc0882  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Merck Sharp & Dohme LLC"
 * type = $orgType#other
 
-Instance: Manufacturer6355046c91dfbfdfa71929dc29d73c9d
+Instance: Manufacturer3ad507e03b3c8420f83f895f7122255f  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "PT Bio Farma (Persero)"
 * type = $orgType#other
 
-Instance: Manufacturerc2bdd66b313f2e6cd406a1abc55b7662
+Instance: Manufacturerfea9c0b58ceb56b0d925a05e74377afb  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Panacea Biotec Ltd."
 * type = $orgType#other
 
-Instance: Manufacturer4c7bd357ca5e34506d2325abf61a6d5c
+Instance: Manufacturer0f92a4144844f2cd6ed7fe33dc8d7b1c  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Pfizer Europe MA EEIG"
 * type = $orgType#other
 
-Instance: Manufactureraa666a19f78cbee9dd669c80a6d26264
+Instance: Manufacturer00bfdffd8d8dbe60aabda0191bb814ec  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "SK Bioscience Co., Ltd."
 * type = $orgType#other
 
-Instance: Manufacturer8ab31a781c8d4c81ccd71cece39e4654
+Instance: Manufacturer0a715f820926b2464f7113168d4f247c  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Saint Petersburg Scientific Research Institute of Vaccines and Serums of the FMBA of Russia"
 * type = $orgType#other
 
-Instance: Manufacturera48efaff80414137ccbaa002140195c6
+Instance: Manufacturer323393ea6ca912a5ae580eddb032cd99  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Sanofi Healthcare India Private Limited"
 * type = $orgType#other
 
-Instance: Manufacturerf18703fb02e156a8ae879e4216f6c561
+Instance: Manufacturere6f45c0f69a7b4cecd7421c4515ea3c5  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Sanofi Pasteur"
 * type = $orgType#other
 
-Instance: Manufacturerd3495bd72a1f17054e37ef7e638bf2db
+Instance: Manufacturere22cd18269d4ef7420dadcc919bda6e0  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Sanofi Pasteur Inc."
 * type = $orgType#other
 
-Instance: Manufacturercba236f3aad4f457150e3cc5990e00e4
+Instance: Manufacturer2e05c0b54d85a829edc3312f6eda9232  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Sanofi Pasteur Limited"
 * type = $orgType#other
 
-Instance: Manufacturerd740cbcbdd2ed62079ddaa68974fc588
+Instance: Manufacturer45d45e667e2afae89b226dcbff654854  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Seqirus GmbH"
 * type = $orgType#other
 
-Instance: Manufacturer414bf493c71eaa3be2581a09156c72c4
+Instance: Manufacturer41f97525c1b4c5c2ec18ee0e4e641a04  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Seqirus Limited"
 * type = $orgType#other
 
-Instance: Manufacturerfe4fadac9251b55f416ee57a84018bfe
+Instance: Manufacturer44bef811989f0f1c17f76defa1978713  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Seqirus Vaccines Limited"
 * type = $orgType#other
 
-Instance: Manufacturera3c5a4eb0b7b835971a6b14a663b03f0
+Instance: Manufacturer35b3de1add41b53c8e37ce338f2ba545  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Serum Institute of India Pvt. Ltd."
 * type = $orgType#other
 
-Instance: Manufacturerab5a8b3393b8406c6e6712f543bca8c1
+Instance: Manufacturer8c96b2e988e99fecb160f675715f893a  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Sinovac (Dalian) Vaccine Technology Co., Ltd."
 * type = $orgType#other
 
-Instance: Manufacturer25034c2714a4acf5214f1059ae33d421
+Instance: Manufacturer56d509b36258f1c3e037132496afb0cb  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Sinovac Biotech Co. Ltd"
 * type = $orgType#other
 
-Instance: Manufacturer5f32e67b1efb37f098e1afd1fe7b6a6c
+Instance: Manufacturerb8f96db637b3f36cdb1416e82e69b306  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Takeda GmbH."
 * type = $orgType#other
 
-Instance: Manufacturer946755682abcfbfe1b4b612a3649f2ef
+Instance: Manufacturerf3c43b08073eb6595c2444bf313f5362  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Valneva Sweden AB"
 * type = $orgType#other
 
-Instance: Manufacturer1ffde88ffa07a2969e1a8bff52432630
+Instance: Manufacturera5cc87bbf41f05f69cabde633c076a70  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Xiamen Innovax Biotech Co. Ltd."
 * type = $orgType#other
 
-Instance: Manufacturera0a9fdcc73416a522cb3985e47a4cc05
+Instance: Manufacturer04d9a670e03eceddfeaf6cf84699e754  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true
 * name = "Yuxi Zerun Biotechnology Co., Ltd"
 * type = $orgType#other
 
-Instance: Manufacturer797ce508ea82f3ddfc60bcdf98e217d9
+Instance: Manufacturer71815e49a163acdd61581f32aa32c1b8  
 InstanceOf: IHE.mCSD.Organization
 Usage: #example
 * active = true

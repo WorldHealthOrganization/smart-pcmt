@@ -105,7 +105,7 @@ awk -vFPAT='([^,]*)|("[^"]+")' -vOFS=, '
     uniq | \
     awk  '{
 
-  CMD="md5 -s \""$0"\""
+  CMD="echo \""$0"\" | md5sum | sed '\''s/[\\s\\-]*//g'\''"
   CMD|getline MD5
   close(CMD)
   print ""
@@ -129,7 +129,7 @@ awk -vFPAT='([^,]*)|("[^"]+")' -vOFS=, 'NR>1  {
     awk '{
 
 
-  CMD="md5 -s \""$0"\""
+  CMD="echo \""$0"\" | md5sum | sed '\''s/[\\s\\-]*//g'\''"
   CMD|getline MD5
   close(CMD)
   print ""
@@ -163,12 +163,12 @@ NR > 1{
   VDATE = gensub(/^([0-9]{1,2})\/([0-9]{1,2})\/([0-9]{4})/,"\\3-\\2-\\1","g",$1)
 
   MANUFACTURER=gensub(/"/, "", "g" , $6)
-  CMD="md5 -s \""MANUFACTURER"\""
+  CMD="echo \""MANUFACTURER"\" | md5sum | sed '\''s/[\\s\\-]*//g'\''"
   CMD|getline MD5MANUFACTURER
   close(CMD)
 
   HOLDER=gensub(/"/, "", "g" , $7)
-  CMD="md5 -s \""HOLDER"\""
+  CMD="echo \""HOLDER"\" | md5sum | sed '\''s/[\\s\\-]*//g'\''"
   CMD|getline MD5HOLDER
   close(CMD)
 
@@ -187,11 +187,9 @@ NR > 1{
 
   MD5SRC=gensub(/"/, "", "g", $1) VAX COMMERCIALNAME PRESENTATION $5 MANUFACTURER RESPONSIBLENRA
   STRIPPED=gensub(/"/, "", "g" , MD5SRC)
-  CMD="md5 -s \""MD5SRC"\""
+  CMD="echo \""MD5SRC"\" | md5sum | sed '\''s/[\\s\\-]*//g'\''"
   CMD|getline MD5
   close(CMD)
-
-
 
   print ""
   print "// Source Record Row //: " NR
