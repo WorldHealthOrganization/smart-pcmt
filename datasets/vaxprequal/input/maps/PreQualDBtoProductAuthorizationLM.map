@@ -6,21 +6,27 @@ uses "http://smart.who.int/icvp/StructureDefinition/ProductAuthorization" alias 
 
 
 group PreQualDBtoProductAuthorizationLM(source prequal: PreQualDB, target productAuth : ProductAuthoization) {
-   prequal as prequal then {
-   	productAuth.status = #active "set status";
-	productAuth.type = #prequal "set type";
-	productAuth.jurisdiction.coding.display = "WHO" "set jurisdiction";
-   }
-   prequal.index as index then {
-   	productAuth.number = index "set number/index";
-        prequal.vaxTypeCode as vaxTypeCode then {
-           productAuth.product = Reference(resolve(vaxTypeCode + "Product" + index.value )  "Set Product reference";
-        }		       
-   }
-   prequal.responsibleNRAReference as respNRARef then {
-   	productAuth.holder = respNRARef "set national regulatory authority holder";
-   }
-   prequal.validityPeriod as validityPeriod then {
-        productAuth.validityPeriod = validityPeriod "set validity period";
-   }
+    productAuth.status as status
+       -> status = "active";
+    productAuth.type as type
+      -> type = "prequal" "set prequal";
+    prequal.responsibleNRAReference as respNRARef then {
+   	respNRARef as respNRARef -> productAuth.holder = respNRARef "set national regulatory authority holder";
+    } "process nra";
+    prequal.validityPeriod as validityPeriod then {
+        validityPeriod as validityPeriod -> productAuth.validityPeriod = validityPeriod "set validity period";
+    } "process validity period";
+
+
+    productAuth.jurisdiction as j then {
+       j.coding as coding -> coding.display  = "WHO" "set WHO";
+    } "process juris";
+    
+    prequal.index as index
+      -> productAuth.number = index "set number/index";
+
+    prequal.index as index then {
+         prequal.vaxTypeCode as vaxTypeCode -> productAuth.product = reference(vaxTypeCode & "Product" & index.value )  "Set Product reference";
+    } "set index";
+
 }
