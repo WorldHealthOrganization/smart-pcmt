@@ -35,5 +35,3 @@ with additional data fields for appropriately referencing associated data object
 * index 1..1 Identifier "An index or identifier of the prequalificaiton for the product"
 * manufacturerReference 1..1 Reference(IHE.mCSD.Organization)  "Manufacturer referecne"
 * responsibleNRAReference 1..1 Reference(IHE.mCSD.Organization)  "Responsible NRA reference"
-* vaxTypeCode 1..1 code "Coding for vaxtype"
-*

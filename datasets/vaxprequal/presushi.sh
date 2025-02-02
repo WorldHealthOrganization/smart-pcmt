@@ -1,13 +1,17 @@
 #!/bin/bash
 set -e
 
-#  1:Date of Prequalification
-#  2:Vaccine Type
-#  3:Commercial Name
-#  4:Presentation
-#  5:No. of doses
-#  6:Manufacturer
-#  7:Responsible NRA
+
+
+
+#  1:Date of Prequalification -> VDATE
+#  2:Vaccine Type -> VAX, VAXTYPE
+#  3:Commercial Name -> COMMERCIALNAME
+#  4:Presentation -> PRESENTATION, PRESENTATIONCODE
+#  5:No. of doses -> $5
+#  6:Manufacturer -> MANUFACTURER, 
+#  7:Responsible NRA  -> RESPONSIBLENRA
+
 
 
 
@@ -145,9 +149,9 @@ NR > 1{
   VAX=gensub(/"/, "", "g" , $2)
 
   CMD="echo \""VAX"\" | sed '\''s/[^[:alnum:]]//g'\''"
-  CMD|getline VAXTYPE
+  CMD|getline VAXTYPESRC
   close(CMD)
-  SHORTVAXTYPE=substr(VAXTYPE,1,24)
+  VAXTYPE=substr(VAXTYPESRC,1,24)
 
   PRESENTATION=gensub(/"/, "", "g" , $4)
   CMD="echo \""PRESENTATION"\" | sed '\''s/[^[:alnum:]]//g'\''"
@@ -157,11 +161,6 @@ NR > 1{
 
   # change dd/mm/yyyy 2/3/2015 to yyyy/mm/dd 2015/3/2
   VDATE = gensub(/^([0-9]{1,2})\/([0-9]{1,2})\/([0-9]{4})/,"\\3-\\2-\\1","g",$1)
-
-  STRIPPED=gensub(/"/, "", "g" , $1$2$3$4$5$6$7)
-  CMD="md5 -s \""STRIPPED"\""
-  CMD|getline MD5
-  close(CMD)
 
   MANUFACTURER=gensub(/"/, "", "g" , $6)
   CMD="md5 -s \""MANUFACTURER"\""
@@ -175,6 +174,22 @@ NR > 1{
 
   COUNTRY=gensub(/"/, "", "g" , $7)
   COMMERCIALNAME=gensub(/"/, "", "g" , $3)
+
+
+
+#  1:Date of Prequalification -> VDATE (in FHIR dateTime format)
+#  2:Vaccine Type -> VAX, VAXTYPE
+#  3:Commercial Name -> COMMERCIALNAME
+#  4:Presentation -> PRESENTATION, PRESENTATIONCODE
+#  5:No. of doses -> $5
+#  6:Manufacturer -> MANUFACTURER, MD5MANUFACTURER
+#  7:Responsible NRA  -> HOLDER, MD5HOLDER
+
+  MD5SRC=gensub(/"/, "", "g", $1) VAX COMMERCIALNAME PRESENTATION $5 MANUFACTURER RESPONSIBLENRA
+  STRIPPED=gensub(/"/, "", "g" , MD5SRC)
+  CMD="md5 -s \""MD5SRC"\""
+  CMD|getline MD5
+  close(CMD)
 
 
 
@@ -193,9 +208,12 @@ NR > 1{
   print "Instance: PreQualDB"MD5
   print "InstanceOf: PreQualDBwithIDs"
   print "* dateOfPrequal = "VDATE
-  print "* vaccineType = #"SHORTVAXTYPE 
+  print "* vaccineType.coding.code = #"VAXTYPE
+  print "* vaccineType.coding.display = \""VAX"\"" 
   print "* commercialName = \""COMMERCIALNAME"\""
+  print "* presentation.coding.system = \"https://extranet.who.int/prequal/vaccines/prequalified-vaccines\""
   print "* presentation.coding.code = #"PRESENTATIONCODE
+  print "* presentation.coding.display = \""PRESENTATION"\""
   if ( $5 ) {
     print "* numDoses = "$5
   }   
@@ -204,9 +222,8 @@ NR > 1{
   print "* index.value = \""MD5"\""
   print "* manufacturerReference = Reference(Manufacturer"MD5MANUFACTURER") "
   print "* responsibleNRAReference = Reference(Holder"MD5HOLDER") // "HOLDER
-  print "* vaxTypeCode = #SHORTVAXTYPE
   print ""    
-  print "Instance: "SHORTVAXTYPE"Product"MD5
+  print "Instance: "VAXTYPE"Product"MD5
   print "InstanceOf: Product"
   print "Usage: #example"
   print "* status = #active"
@@ -217,11 +234,11 @@ NR > 1{
   if ( $5 ) {
     print "* doseQuantity =  " $5  " '\''doses'\''"
   }   
-  print "* classification = #"SHORTVAXTYPE 
+  print "* classification = #"VAXTYPE 
   print "* unitOfUse.coding.code = #doses"
   print "* dosageForm.coding.code = #"PRESENTATIONCODE
   print ""
-  print "Instance: "SHORTVAXTYPE"PreQual" MD5
+  print "Instance: "VAXTYPE"PreQual" MD5
   print "InstanceOf: ProductAuthorization"
   print "Usage: #example"
   print "* status = #active"
@@ -229,7 +246,7 @@ NR > 1{
   print "* jurisdiction.coding.display = \"WHO\""
   print "* holder = Reference(Holder"MD5HOLDER") // "HOLDER
   print "* validityPeriod.start = "VDATE
-  print "* product  = Reference("SHORTVAXTYPE"Product"MD5") " 
+  print "* product  = Reference("VAXTYPE"Product"MD5") " 
 
 }' data/prequalified_vaccines.csv >  input/fsh/examples/prequal_database_products.fsh
 
