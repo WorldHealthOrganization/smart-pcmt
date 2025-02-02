@@ -25,8 +25,11 @@ group PreQualDBtoProductAuthorizationLM(source prequal: PreQualDB, target produc
     prequal.index as index
       -> productAuth.number = index "set number/index";
 
-    prequal.index as index then {
-         prequal.vaxTypeCode as vaxTypeCode -> productAuth.product = reference(vaxTypeCode & "Product" & index.value )  "Set Product reference";
-    } "set index";
+    prequal.productReference as prodRef
+      -> productAuth.product = prodRef "set prod ref";
+//    prequal.index as index then {
+//         prequal.vaxTypeCode as vaxTypeCode
+//	    -> productAuth.product = reference(vaxTypeCode + "Product" + index.value )  "Set Product reference";
+//    } "set index";
 
 }

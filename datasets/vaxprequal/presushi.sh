@@ -219,6 +219,7 @@ NR > 1{
   print "* index.value = \""MD5"\""
   print "* manufacturerReference = Reference(Manufacturer"MD5MANUFACTURER") "
   print "* responsibleNRAReference = Reference(Holder"MD5HOLDER") // "HOLDER
+  print "* productReference = Reference("VAXTYPE"Product"MD5") " 
   print ""    
   print "Instance: "VAXTYPE"Product"MD5
   print "InstanceOf: Product"
