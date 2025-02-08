@@ -66,7 +66,7 @@ Description: \"WHO PreQualificaiton Vaccine VaccineTypes\"
 awk -vFPAT='([^,]*)|("[^"]+")' -vOFS=, '
 
   NR>1  {
-    print gensub(/"/, "", "g" , $4)
+    print gensub(/"/, "", "g" , $2)
   }' data/prequalified_vaccines.csv | \
     sort | \
     uniq | \
