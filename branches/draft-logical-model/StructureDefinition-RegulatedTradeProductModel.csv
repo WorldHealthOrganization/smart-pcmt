@@ -1,0 +1,15 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"RegulatedTradeProductModel","RegulatedTradeProductModel","","","",0,*,"","","","null {[]} {[]}
+","Regulated Trade Product","Authorisation for the trade product for a given region or country","","","","","","","","","",,,,,"",,,,"Base",0,*,"","","n/a"
+"RegulatedTradeProductModel.number","RegulatedTradeProductModel.number","","","",0,1,"","","","Identifier {[]} {[]}
+","The identifier of the authorisation for the product","The identifier of the authorisation for the product","","","","","","","","","",,,,,"",,,,"RegulatedTradeProductModel.number",0,1,"",""
+"RegulatedTradeProductModel.status","RegulatedTradeProductModel.status","","","",1,1,"","","","code {[]} {[]}
+","Product status","The status of the regulated product e.g. 'active' 'inactive'","","","","","","","","","",,,,,"",,,,"RegulatedTradeProductModel.status",1,1,"",""
+"RegulatedTradeProductModel.jurisdiction","RegulatedTradeProductModel.jurisdiction","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","The jurisidiction (e.g. country, economic commuinity or region) where the authorisation is issued","The jurisidiction (e.g. country, economic commuinity or region) where the authorisation is issued","","","","","","","","","",,,,,"",,,,"RegulatedTradeProductModel.jurisdiction",1,1,"",""
+"RegulatedTradeProductModel.holder","RegulatedTradeProductModel.holder","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://profiles.ihe.net/ITI/mCSD/StructureDefinition/IHE.mCSD.Organization]]}
+","The organisation responsible for the product i.e. the grantee of the authorisation","The organisation responsible for the product i.e. the grantee of the authorisation","","","","","","","","","",,,,,"",,,,"RegulatedTradeProductModel.holder",1,1,"",""
+"RegulatedTradeProductModel.tradeProduct","RegulatedTradeProductModel.tradeProduct","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://smart.who.int/pcmt/StructureDefinition/TradeProductModel]]}
+","Associated Trade Product","Associated Trade Product","","","","","","","","","",,,,,"",,,,"RegulatedTradeProductModel.tradeProduct",0,*,"",""
+"RegulatedTradeProductModel.validityPeriod","RegulatedTradeProductModel.validityPeriod","","","",0,1,"","","","Period {[]} {[]}
+","Validity Period","Validity Period","","","","","","","","","",,,,,"",,,,"RegulatedTradeProductModel.validityPeriod",0,1,"",""
