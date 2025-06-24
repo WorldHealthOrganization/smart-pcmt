@@ -13,7 +13,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 publisher:
   name: WHO
   url: http://who.int
-  # email: test@example.org
+  # email: test@example.org 
 
 
 meta:
