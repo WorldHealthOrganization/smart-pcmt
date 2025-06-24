@@ -15,6 +15,6 @@ CI-Build: [https://worldhealthorganization.github.io/smart-pcmt](https://worldhe
 This is an ImplementationGuide for the Product Catalogue requirements for the SMART Guidelines and ICVP
 
 ## Changes and feedback
- 
+  
 Feedback and issues about this empty framework can be submitted via the [issues](issues) page, and will be incorporated into subsequent releases.
  
