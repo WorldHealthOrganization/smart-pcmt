@@ -1,0 +1,34 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem status</b></p><a name=\"status\"> </a><a name=\"hcstatus\"> </a><a name=\"status-en-US\"> </a><p>This  code system <code>http://smart.who.int/pcmt/CodeSystem/status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">active<a name=\"status-active\"> </a></td></tr><tr><td style=\"white-space:nowrap\">in-active<a name=\"status-in-active\"> </a></td></tr><tr><td style=\"white-space:nowrap\">invalid<a name=\"status-invalid\"> </a></td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/pcmt/CodeSystem/status",
+  "version" : "0.1.0",
+  "name" : "status",
+  "title" : "Trade Product and Regulatory Status",
+  "status" : "draft",
+  "date" : "2025-01-30T22:40:14+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Trade Product and Regulatory Status",
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "active"
+  },
+  {
+    "code" : "in-active"
+  },
+  {
+    "code" : "invalid"
+  }]
+}
