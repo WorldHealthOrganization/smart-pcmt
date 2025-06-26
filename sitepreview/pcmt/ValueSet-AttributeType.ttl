@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "AttributeType"] ; # 
   fhir:title [ fhir:v "AttributeType for a Product"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-25T13:01:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-26T06:31:28+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "WHO"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "WHO" ] ;

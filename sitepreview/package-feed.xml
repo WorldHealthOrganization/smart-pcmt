@@ -4,9 +4,9 @@
     <description>Packages published by the World Health Organization SMART Guidelines</description>
     <link>https://smart.who.int/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
-    <lastBuildDate>Wed, 25 Jun 2025 12:59:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 06:29:23 +0000</lastBuildDate>
     <atom:link href="https://smart.who.int/package-feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Jun 2025 12:59:37 +0000</pubDate>
+    <pubDate>Thu, 26 Jun 2025 06:29:23 +0000</pubDate>
     <language>en</language>
     <ttl>600</ttl>
     <item>
@@ -17,8 +17,8 @@
       <dc:creator>WHO</dc:creator>
       <fhir:version>4.0.1</fhir:version>
       <fhir:kind>IG</fhir:kind>
-      <pubDate>Wed, 25 Jun 2025 12:59:37 +0000</pubDate>
-      <fhir:details>Publication run at 25/06/2025 by 92015a765ec6 using Version 2.0.7 (Git# f2fdf4e51a8d). Built 2025-06-14T10:53:27.183Z (11 days old) source id Unknown (todo)</fhir:details>
+      <pubDate>Thu, 26 Jun 2025 06:29:23 +0000</pubDate>
+      <fhir:details>Publication run at 26/06/2025 by 3ff94631626f using Version 2.0.7 (Git# f2fdf4e51a8d). Built 2025-06-14T10:53:27.183Z (11 days old) source id Unknown (todo)</fhir:details>
     </item>
     <item>
       <title>smart.who.int.dak-bds#1.0.0</title>

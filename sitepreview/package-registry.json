@@ -219,12 +219,12 @@
       "version-count" : 1,
       "latest" : {
         "version" : "0.1.0",
-        "date" : "2025-06-25",
+        "date" : "2025-06-26",
         "path" : "http://smart.who.int/pcmt/v0.1.0"
       },
       "milestone" : {
         "version" : "0.1.0",
-        "date" : "2025-06-25",
+        "date" : "2025-06-26",
         "path" : "http://smart.who.int/pcmt/v0.1.0"
       }
     }

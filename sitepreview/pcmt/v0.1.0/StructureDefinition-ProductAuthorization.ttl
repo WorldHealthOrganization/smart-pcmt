@@ -25,7 +25,7 @@
   fhir:name [ fhir:v "ProductAuthorization"] ; # 
   fhir:title [ fhir:v "Product Authorization"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-25T12:59:37+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-26T06:29:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "WHO"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "WHO" ] ;

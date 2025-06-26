@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "dcf12d25-bc8d-4adc-9bdc-6ab79358d35a",
+  "id" : "386a7f3b-472e-4186-94bb-57a1fafc953a",
   "meta" : {
-    "lastUpdated" : "2025-06-25T13:01:57.577+00:00"
+    "lastUpdated" : "2025-06-26T06:31:47.639+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,10 @@
       "name" : "AttributeType",
       "title" : "AttributeType for a Product",
       "status" : "draft",
-      "date" : "2025-06-25T13:01:38+00:00",
+      "date" : "2025-06-26T06:31:28+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fb0b02c8-56ec-4bd3-a3b8-bdc2a18a24f3",
-        "timestamp" : "2025-06-25T13:02:18+00:00",
+        "identifier" : "urn:uuid:817238d1-def5-45bd-adf8-d7b6fdba2780",
+        "timestamp" : "2025-06-26T06:32:09+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -72,10 +72,10 @@
       "name" : "NameType",
       "title" : "Name Type for a Product",
       "status" : "draft",
-      "date" : "2025-06-25T13:01:38+00:00",
+      "date" : "2025-06-26T06:31:28+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b9cac025-081b-410c-8ef9-34052439193c",
-        "timestamp" : "2025-06-25T13:02:19+00:00",
+        "identifier" : "urn:uuid:2e80aafd-b895-4709-a2f4-2a6d07d6fc12",
+        "timestamp" : "2025-06-26T06:32:09+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -144,10 +144,10 @@
       "name" : "ProductRelationship",
       "title" : "Product Relationships",
       "status" : "draft",
-      "date" : "2025-06-25T13:01:38+00:00",
+      "date" : "2025-06-26T06:31:28+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:cc7156a9-5391-424e-ab7d-b25012ff74e5",
-        "timestamp" : "2025-06-25T13:02:19+00:00",
+        "identifier" : "urn:uuid:c92de9ca-3258-4d19-b141-9492736ac1f3",
+        "timestamp" : "2025-06-26T06:32:09+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -216,10 +216,10 @@
       "name" : "Status",
       "title" : "Status for a Product",
       "status" : "draft",
-      "date" : "2025-06-25T13:01:38+00:00",
+      "date" : "2025-06-26T06:31:28+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8ae77df4-1451-47a6-9d9a-442b61ee2bb1",
-        "timestamp" : "2025-06-25T13:02:19+00:00",
+        "identifier" : "urn:uuid:e71882aa-9f31-4384-942d-a908570e838a",
+        "timestamp" : "2025-06-26T06:32:10+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

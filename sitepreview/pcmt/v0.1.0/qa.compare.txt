@@ -1,10 +1,10 @@
 PCMT : Validation Results
 =========================================
 
-err = 0, warn = 26, info = 6
+err = 0, warn = 22, info = 6
 $--
 Generated $--. FHIR version $-- for smart.who.int.pcmt#$-- (canonical = http://smart.who.int/pcmt)
- Build Errors : 6 / 4 / 0
+ Build Errors : 6 / 0 / 0
  /workspace/temp/ig-builds/smart.who.int.pcmt#0.1.0/fsh-generated/resources/CodeSystem-AttributeType : 0 / 2 / 2
  /workspace/temp/ig-builds/smart.who.int.pcmt#0.1.0/fsh-generated/resources/CodeSystem-ProductRelationship : 0 / 2 / 2
  /workspace/temp/ig-builds/smart.who.int.pcmt#0.1.0/fsh-generated/resources/CodeSystem-RegulatationType : 0 / 2 / 2
@@ -28,10 +28,6 @@ ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 298, colu
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 312, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 313, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 314, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-AttributeType.json ==
 INFORMATION: CodeSystem/AttributeType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/AttributeType: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
