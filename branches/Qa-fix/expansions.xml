@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="cce5b455-d96b-4f3d-a71f-c78f007a53e2"/>
+  <meta>
+    <lastUpdated value="2025-01-31T06:14:45.183+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://smart.who.int/pcmt/ValueSet/AttributeType"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
+              <a href="CodeSystem-AttributeType.html">codesystem Attribute type of Products v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/AttributeType-active"> </a>  
+                  <a href="CodeSystem-AttributeType.html#AttributeType-active">active</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/AttributeType</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/AttributeType-in-active"> </a>  
+                  <a href="CodeSystem-AttributeType.html#AttributeType-in-active">in-active</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/AttributeType</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/AttributeType-invalid"> </a>  
+                  <a href="CodeSystem-AttributeType.html#AttributeType-invalid">invalid</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/AttributeType</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/pcmt/ValueSet/AttributeType"/>
+        <version value="0.1.0"/>
+        <name value="AttributeType"/>
+        <title value="AttributeType for a Product"/>
+        <status value="draft"/>
+        <date value="2025-01-31T06:14:45+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:99134514-0f82-45da-9a4b-93e65e34acff"/>
+          <timestamp value="2025-01-31T06:15:12+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/pcmt/CodeSystem/AttributeType|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/AttributeType"/>
+            <code value="active"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/AttributeType"/>
+            <code value="in-active"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/AttributeType"/>
+            <code value="invalid"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://smart.who.int/pcmt/ValueSet/NameType"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
+              <a href="http://hl7.org/fhir/R5/codesystem-device-nametype.html">codesystem Device Name Type v5.0.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/device-nametype-registered-name"> </a>  
+                  <a href="http://hl7.org/fhir/R5/codesystem-device-nametype.html#device-nametype-registered-name">registered-name</a>
+                </td>
+                <td>http://hl7.org/fhir/device-nametype</td>
+                <td>Registered name</td>
+                <td>
+                  <div>
+                    <p>The term assigned to a medical device by the entity who registers or submits information about it to a jurisdiction or its databases. This may be considered the manufacturer assigned name (e.g., brand name assigned by the labeler or manufacturer in US, or device name assigned by the manufacturer in EU) and may also be synonymous with proprietary name or trade name of the device.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/device-nametype-user-friendly-name"> </a>  
+                  <a href="http://hl7.org/fhir/R5/codesystem-device-nametype.html#device-nametype-user-friendly-name">user-friendly-name</a>
+                </td>
+                <td>http://hl7.org/fhir/device-nametype</td>
+                <td>User Friendly name</td>
+                <td>
+                  <div>
+                    <p>The term that generically describes the device by a name as assigned by the manufacturer that is recognized by lay person.  This common or generic name may be printed on the package it came in or some combination of that name with the model number, serial number, or other attribute that makes the name easy to understand for the user of that device. It is often exposed in communicating devices transport protocols. It is provided to help users identify the device when reported in discovery operations.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/device-nametype-patient-reported-name"> </a>  
+                  <a href="http://hl7.org/fhir/R5/codesystem-device-nametype.html#device-nametype-patient-reported-name">patient-reported-name</a>
+                </td>
+                <td>http://hl7.org/fhir/device-nametype</td>
+                <td>Patient Reported name</td>
+                <td>
+                  <div>
+                    <p>the term used by the patient associated with the device when describing the device, for example 'knee implant', when documented as a self-reported device.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/pcmt/ValueSet/NameType"/>
+        <version value="0.1.0"/>
+        <name value="NameType"/>
+        <title value="Name Type for a Product"/>
+        <status value="draft"/>
+        <date value="2025-01-31T06:14:45+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:e4efcf58-4a20-4287-94ac-52f8a5d507fb"/>
+          <timestamp value="2025-01-31T06:15:12+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/device-nametype|5.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/device-nametype"/>
+            <code value="registered-name"/>
+            <display value="Registered name"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/device-nametype"/>
+            <code value="user-friendly-name"/>
+            <display value="User Friendly name"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/device-nametype"/>
+            <code value="patient-reported-name"/>
+            <display value="Patient Reported name"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://smart.who.int/pcmt/ValueSet/ProductRelationship"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
+              <a href="CodeSystem-ProductRelationship.html">codesystem Product Relationship v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/ProductRelationship-contains"> </a>  
+                  <a href="CodeSystem-ProductRelationship.html#ProductRelationship-contains">contains</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/ProductRelationship</td>
+                <td>This relationship is used to represent some packaging packgaing, assemblage of kits or other physical containment of products.    The Product contains the associated Products that are referenced</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/ProductRelationship-vial_contains"> </a>  
+                  <a href="CodeSystem-ProductRelationship.html#ProductRelationship-vial_contains">vial_contains</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/ProductRelationship</td>
+                <td>This relationship is a speciialization of the #package-contains concept which represents that the product is a vial</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/ProductRelationship-inner_pack_contains"> </a>  
+                  <a href="CodeSystem-ProductRelationship.html#ProductRelationship-inner_pack_contains">inner_pack_contains</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/ProductRelationship</td>
+                <td>This relationship is a speciialization of the #package-contains concept which represents that the product is an inner pack</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/ProductRelationship-case_contains"> </a>  
+                  <a href="CodeSystem-ProductRelationship.html#ProductRelationship-case_contains">case_contains</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/ProductRelationship</td>
+                <td>This relationship is a speciialization of the #package-contains concept which represents that the product is a case</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/ProductRelationship-pallet_contains"> </a>  
+                  <a href="CodeSystem-ProductRelationship.html#ProductRelationship-pallet_contains">pallet_contains</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/ProductRelationship</td>
+                <td>This relationship is a speciialization of the #package-contains concept which represents that the product is a pallet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/ProductRelationship-equivalent"> </a>  
+                  <a href="CodeSystem-ProductRelationship.html#ProductRelationship-equivalent">equivalent</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/ProductRelationship</td>
+                <td>This relationship indicates tha product is equivalent to the referenced product, for example such as with duplicate entries in a catalogue for the same phtsical item.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/pcmt/ValueSet/ProductRelationship"/>
+        <version value="0.1.0"/>
+        <name value="ProductRelationship"/>
+        <title value="Product Relationships"/>
+        <status value="draft"/>
+        <date value="2025-01-31T06:14:45+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:701fb11b-9da6-4a62-ba9a-04eb2ba2c007"/>
+          <timestamp value="2025-01-31T06:15:12+00:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/pcmt/CodeSystem/ProductRelationship|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/ProductRelationship"/>
+            <code value="contains"/>
+            <display value="This relationship is used to represent some packaging packgaing, assemblage of kits or other physical containment of products.    The Product contains the associated Products that are referenced"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/ProductRelationship"/>
+            <code value="vial_contains"/>
+            <display value="This relationship is a speciialization of the #package-contains concept which represents that the product is a vial"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/ProductRelationship"/>
+            <code value="inner_pack_contains"/>
+            <display value="This relationship is a speciialization of the #package-contains concept which represents that the product is an inner pack"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/ProductRelationship"/>
+            <code value="case_contains"/>
+            <display value="This relationship is a speciialization of the #package-contains concept which represents that the product is a case"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/ProductRelationship"/>
+            <code value="pallet_contains"/>
+            <display value="This relationship is a speciialization of the #package-contains concept which represents that the product is a pallet"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/ProductRelationship"/>
+            <code value="equivalent"/>
+            <display value="This relationship indicates tha product is equivalent to the referenced product, for example such as with duplicate entries in a catalogue for the same phtsical item."/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://smart.who.int/pcmt/ValueSet/Status"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
+              <a href="CodeSystem-Status.html">codesystem Product and regulatory authorization status v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/Status-active"> </a>  
+                  <a href="CodeSystem-Status.html#Status-active">active</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/Status</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/Status-in-active"> </a>  
+                  <a href="CodeSystem-Status.html#Status-in-active">in-active</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/Status</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://smart.who.int/pcmt/CodeSystem/Status-invalid"> </a>  
+                  <a href="CodeSystem-Status.html#Status-invalid">invalid</a>
+                </td>
+                <td>http://smart.who.int/pcmt/CodeSystem/Status</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/pcmt/ValueSet/Status"/>
+        <version value="0.1.0"/>
+        <name value="Status"/>
+        <title value="Status for a Product"/>
+        <status value="draft"/>
+        <date value="2025-01-31T06:14:45+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:cd165c66-dcc0-4a4d-b8ac-5cb2ad644627"/>
+          <timestamp value="2025-01-31T06:15:13+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/pcmt/CodeSystem/Status|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/Status"/>
+            <code value="active"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/Status"/>
+            <code value="in-active"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/pcmt/CodeSystem/Status"/>
+            <code value="invalid"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

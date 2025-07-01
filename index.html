@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Home - SMART Product Catalog v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+    <link href="assets/css/fa-all.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/who.css" rel="stylesheet"/>
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">  <!-- container -->
+          <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+            <!--status-bar-->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li>
+        <a href="changes.html">Changes</a>
+      </li>
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="references.html">References</a>
+      </li>
+      <li>
+        <a href="adapting.html">Adapting Guidelines for Country use</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Concepts</a>
+      </li>
+      <li>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+      <li>
+        <a href="scenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="business-processes.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="dictionary.html">Data Dictionary</a>
+      </li>
+      <li>
+        <a href="decision-logic.html">Decision-support Logic</a>
+      </li>
+      <li>
+        <a href="indicators.html">Indicator and Performance Metrics</a>
+      </li>
+      <li>
+        <a href="functional-requirements.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="non-functional-requirements.html">Non-functional Requirements</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li>
+        <a href="sequence-diagrams.html">Sequence Diagrams</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="indicators-measures.html">Indicators and Measures</a>
+      </li>
+      <li>
+        <a href="codings.html">Codings</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security-privacy.html">Security and Privacy Considerations</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="test-data.html">Test Data</a>
+      </li>
+      <li>
+        <a href="reference-implementations.html">Reference Implementations</a>
+      </li>
+      <li>
+        <a href="trust_domain.html">Trust Domains</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+      <li>
+        <a href="maps.html">Mappings</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>  <!-- /.nav-collapse -->
+
+              <div class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch" data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;">
+                <!-- This div will be pushed to the right -->
+                <div class="language-selector" style="margin-left: auto; background-color: #00477d; color: white;">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" id="language-selector" name="language-selector">
+                    <option disabled selected>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <!-- Search Content -->
+              </div>
+            </div>  <!-- /.container -->
+          </nav>  <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+        </div>  <!-- /container -->
+      </div>  <!-- /segment-navbar -->
+      
+
+      <div class="container" style=" justify-content: space-between; align-items: left;">
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a id="who-logo" no-external="true" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">SMART Product Catalog</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">SMART Product Catalog, published by WHO. This guide is not an authorized publication; it is the continuous build for version 0.2.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/WorldHealthOrganization/smart-pcmt/tree/main'>https://github.com/WorldHealthOrganization/smart-pcmt/tree/main</a> and changes regularly. See the <a href='http://smart.who.int/pcmt/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://smart.who.int/pcmt/ImplementationGuide/smart.who.int.pcmt<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://smart.who.int/pcmt/ImplementationGuide/smart.who.int.pcmt"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://smart.who.int/pcmt/ImplementationGuide/smart.who.int.pcmt|0.2.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-07-01
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">SMARTPCMT</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#summary" id="markdown-toc-summary">Summary</a></li>
+  <li><a href="#l1-narrative-guidelines" id="markdown-toc-l1-narrative-guidelines">L1 Narrative guidelines</a></li>
+  <li><a href="#l2-operational-guidelines" id="markdown-toc-l2-operational-guidelines">L2 Operational guidelines</a></li>
+  <li><a href="#l3-machine-readable-guidelines" id="markdown-toc-l3-machine-readable-guidelines">L3 Machine readable guidelines</a></li>
+  <li><a href="#l4-executable-guidelines" id="markdown-toc-l4-executable-guidelines">L4 Executable guidelines</a></li>
+  <li><a href="#l5-dynamic-guidelines" id="markdown-toc-l5-dynamic-guidelines">L5 Dynamic guidelines</a></li>
+  <li><a href="#news" id="markdown-toc-news">News</a></li>
+  <li><a href="#contact-us" id="markdown-toc-contact-us">Contact Us</a></li>
+  <li><a href="#license" id="markdown-toc-license">License</a></li>
+  <li><a href="#providing-feedback" id="markdown-toc-providing-feedback">Providing Feedback</a></li>
+  <li><a href="#disclaimer" id="markdown-toc-disclaimer">Disclaimer</a></li>
+  <li><a href="#summary-1" id="markdown-toc-summary-1">Summary</a></li>
+  <li><a href="#about-this-implementation-guide" id="markdown-toc-about-this-implementation-guide">About this implementation guide</a></li>
+  <li><a href="#disclaimer-1" id="markdown-toc-disclaimer-1">Disclaimer</a></li>
+</ul>
+
+</div>
+<!-- please keep only this for L2 DAK -->
+<!---Note: Remove this below div element for releasing, only to maintain for main branch -->
+<div class="stu-note">
+<p> This DAK and set of implementation tools are still undergoing development. </p>
+<p> Content is for demonstration purposes only. </p>
+</div>
+
+<h3 id="summary">Summary</h3>
+<p>This WHO <mark>[insert health domain here]</mark> DAK <mark>add content here</mark></p>
+
+<h3 id="l1-narrative-guidelines">L1 Narrative guidelines</h3>
+<p><mark>[insert content here]</mark></p>
+
+<h3 id="l2-operational-guidelines">L2 Operational guidelines</h3>
+<p>The L2 <mark>[insert health domain here]</mark> Digital adaptation kit publications and implementations tools can be found here:</p>
+
+<!-- insert links inside the parentheses below --->
+<ul>
+  <li>
+    <p><a href="">Published DAK Document</a></p>
+  </li>
+  <li>
+    <p><a href="">Link to core data dictionary</a></p>
+  </li>
+  <li>
+    <p><a href="">Link to decision support logic</a></p>
+  </li>
+  <li>
+    <p><a href="">Link to scheduling logic</a></p>
+  </li>
+  <li>
+    <p><a href="">Link to indicators table</a></p>
+  </li>
+  <li>
+    <p><a href="">Link to functional and non functional requirements</a></p>
+  </li>
+</ul>
+
+<h3 id="l3-machine-readable-guidelines">L3 Machine readable guidelines</h3>
+<p>The L3 FHIR Implementation Guide for the <mark>[insert health domain here]</mark> SMART Guidelines is yet to be published. Links will be published here as soon as they're available.</p>
+
+<h3 id="l4-executable-guidelines">L4 Executable guidelines</h3>
+<p>Reference implementations representing the L4 layer for the <mark>[insert health domain here]</mark> SMART Guidelines are not yet available. Links will be published here as soon as they're available.</p>
+
+<h3 id="l5-dynamic-guidelines">L5 Dynamic guidelines</h3>
+<p>Content representing the L5 layer for the <mark>[insert health domain here]</mark> SMART Guidelines are not yet available. Links will be published here as soon as they're available.</p>
+
+<h3 id="news">News</h3>
+
+<h3 id="contact-us">Contact Us</h3>
+<p>Please let us know about your experience in using the DAK and questions you may have by contacting us at <a href="mailto:SMART@who.int?subject = DAK Feedback">SMART@who.int</a></p>
+
+<h3 id="license">License</h3>
+<p>This work is licensed under a
+<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License</a>.</p>
+
+<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/"><img src="https://i.creativecommons.org/l/by-nc-sa/3.0/igo/88x31.png" alt="CC BY 3.0" /></a></p>
+
+<h3 id="providing-feedback">Providing Feedback</h3>
+
+<p>
+    Feedback specific to this specification can provided through:
+  </p>
+<ul>
+    <li>Clicking on one of the Feedbacks link to the right of any section header</li>
+    <li>Sending an email to <a href="mailto:SMART@who.int?subject = DAK Feedback">SMART@who.int</a></li>
+    <li>Creating an issue on GitHub <a href="https://github.com/WorldHealthOrganization/pcmt">pcmt repository</a></li>
+  </ul>
+
+<!-- for main branch of DAK repos only, remove while releases -->
+<h3 id="disclaimer">Disclaimer</h3>
+<p>The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences.</p>
+
+<!-- please keep only this for L3 FHIR IG -->
+<p>This WHO <mark>[insert health domain here]</mark> Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of <mark>[insert health domain here]</mark> services.</p>
+
+<div class="stu-note">
+<p> This implementation guide and set of artifacts are still undergoing development. </p>
+<p> Content is for demonstration purposes only. </p>
+</div>
+
+<h3 id="summary-1">Summary</h3>
+<p>This implementation guide includes a machine-readable representation of WHO guidelines for <mark>[insert health domain here]</mark>, as documented in the WHO Digital Adaptation Kit for <mark>[insert health domain here]</mark> (link forthcoming) and explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of <mark>[insert health domain here]</mark> use cases by WHO Member States.</p>
+
+<p>The guide is part of the <a href="https://www.who.int/teams/digital-health-and-innovation/smart-guidelines">WHO SMART Guidelines approach</a> to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology based on the WHO <mark>[insert health domain here]</mark> Digital Adaptation Kit (link forthcoming).</p>
+
+<p>Supporting guidance, recommendations, resources, and standards are included in the <a href="references.html">References</a> and <a href="dependencies.html">Dependencies</a>.</p>
+
+<h3 id="about-this-implementation-guide">About this implementation guide</h3>
+
+<p>This implementation guide is broken into the following levels of <a href="https://hl7.org/fhir/uv/cpg/documentation-approach-06-01-levels-of-knowledge-representation.html">knowledge representation</a>:</p>
+<ul>
+  <li><a href="index.html">Home</a> - contains references to the guidance, guidelines, policies and recommendations underpinning this implementation guide.</li>
+  <li><a href="business-requirements.html">Business Requirements</a> - contains the requirements for this implementation guide including the definition of key concepts, use cases, and a data dictionary.</li>
+  <li><a href="data-models-and-exchange.html">Data Models and Exchange</a> - contains the data models and data exchange protocols with actors and transactions defined.</li>
+  <li><a href="deployment.html">Deployment Guidance </a> - contains relevant technical specifications and guidance, testing resources, reference implementation materials, and supporting guidance for adaptation to local contexts.</li>
+</ul>
+
+<p>This guide is prepared to facilitate digital implementation of WHO <mark>[insert health domain here]</mark> guidelines by providing FHIR-based computable representations of and implementation guidance for using the key components of the WHO <mark>[insert health domain here]</mark> digital adaptation kit (DAK):</p>
+
+<ul>
+  <li>Health Interventions &amp; Recommendations</li>
+  <li>Generic Personas</li>
+  <li>User Scenarios</li>
+  <li>Business Processes &amp; Workflows</li>
+  <li>Core Data Elements</li>
+  <li>Decision Support Logic</li>
+  <li>Indicators &amp; Monitoring</li>
+  <li>Functional &amp; Non-functional Requirements</li>
+</ul>
+
+<p>This guide is a companion to the Digital Adaptation Kit (DAK) and should be used side-by-side with it. Implementers are strongly encouraged to make use of the Digital Adaptation Kit. The focus of this guide is on the explanation and use of the computable artifacts.</p>
+
+<p>This guide assumes use of the following resources:</p>
+<ul>
+  <li><a href="http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips">IPS Patient</a></li>
+  <li>
+    <p><a href="https://hl7.org/fhir/uv/cpg/artifacts.html#activitydefinition-index">CPG ActivityDefinitions</a></p>
+  </li>
+  <li>For a complete listing of the artifacts defined in this implementation guide, refer to the <a href="artifacts.html">Artifact Index</a>.</li>
+  <li>
+    <p>A complete offline copy of this implementation guide can be found on the <a href="downloads.html">Downloads</a> page.</p>
+  </li>
+  <li>This Implementation Guide makes use of <a href="https://cql.hl7.org/">Clinical Quality Language</a> for the decision support artifacts including the PlanDefinitions and Measures. They are used to express how a calculation should occur and can be used with a CQL engine in order to process the decision or indicator directly from the applicable FHIR resources. Links to this specification, the FHIR Clinical Practice Guidelines Speciciation, and other helpful resources can be found in the Support dropdown.</li>
+</ul>
+
+<h3 id="disclaimer-1">Disclaimer</h3>
+<p>The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences.</p>
+
+<figure>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="CLASS" height="591px" preserveAspectRatio="none" style="width:529px;height:591px;background:#FFFFFF;" version="1.1" viewBox="0 0 529 591" width="529px" zoomAndPan="magnify"><defs /><g><!--class GP--><g class="entity" data-entity="GP" data-source-line="20" data-uid="ent0002" id="entity_GP"><rect fill="#F1F1F1" height="217.5625" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="216.543" x="20" y="7" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127.0869" x="64.728" y="24.9951">Generic Product</text><line style="stroke:#181818;stroke-width:0.5;" x1="21" x2="235.543" y1="33.2969" y2="33.2969" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92.0869" x="42.4502" y="56.292">identifier 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74.1836" x="42.4502" y="72.5889">status 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124.7148" x="42.4502" y="88.8857">productName 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105.2051" x="50.4502" y="105.1826">nameType 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.8682" x="50.4502" y="121.4795">name 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109.0059" x="42.4502" y="137.7764">description 0..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119.8135" x="42.4502" y="154.0732">classification 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100.3926" x="42.4502" y="170.3701">unitOfUse 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118.002" x="42.4502" y="186.667">dosageForm 0..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90.4395" x="42.4502" y="202.9639">strength 0..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185.1924" x="42.4502" y="219.2607">routeOfAdministration 0..*</text><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="50.4453" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="51.4453" y2="51.4453" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="43.2969" y2="51.4453" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="66.7422" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="67.7422" y2="67.7422" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="51.4453" y2="67.7422" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="83.0391" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="84.0391" y2="84.0391" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="67.7422" y2="84.0391" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="43" y="99.3359" /><line style="stroke:#000000;stroke-width:1;" x1="36" x2="44" y1="100.3359" y2="100.3359" /><line style="stroke:#000000;stroke-width:1;" x1="36" x2="36" y1="84.0391" y2="100.3359" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="43" y="115.6328" /><line style="stroke:#000000;stroke-width:1;" x1="36" x2="44" y1="116.6328" y2="116.6328" /><line style="stroke:#000000;stroke-width:1;" x1="36" x2="36" y1="100.3359" y2="116.6328" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="131.9297" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="132.9297" y2="132.9297" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="84.0391" y2="132.9297" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="148.2266" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="149.2266" y2="149.2266" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="132.9297" y2="149.2266" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="164.5234" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="165.5234" y2="165.5234" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="149.2266" y2="165.5234" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="180.8203" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="181.8203" y2="181.8203" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="165.5234" y2="181.8203" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="197.1172" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="198.1172" y2="198.1172" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="181.8203" y2="198.1172" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="35" y="213.4141" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="36" y1="214.4141" y2="214.4141" /><line style="stroke:#000000;stroke-width:1;" x1="28" x2="28" y1="198.1172" y2="214.4141" /></g><!--class TI--><g class="entity" data-entity="TI" data-source-line="35" data-uid="ent0003" id="entity_TI"><rect fill="#F1F1F1" height="282.75" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="243.4971" x="7" y="302" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="86.2764" x="85.6104" y="319.9951">Trade Item</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="249.4971" y1="328.2969" y2="328.2969" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92.0869" x="29.4502" y="351.292">identifier 1..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74.1836" x="29.4502" y="367.5889">status 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139.7539" x="29.4502" y="383.8857">tradeItemName 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105.2051" x="37.4502" y="400.1826">nameType 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.8682" x="37.4502" y="416.4795">name 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168.123" x="29.4502" y="432.7764">manufacturerName 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139.8359" x="29.4502" y="449.0732">manufacturerId 0..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142.9668" x="29.4502" y="465.3701">countryOfOrigin 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89.9951" x="29.4502" y="481.667">shelfLife 0..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212.1465" x="29.4502" y="497.9639">associatedGenericProduct 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137.2041" x="37.4502" y="514.2607">genericProduct 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89.5303" x="37.4502" y="530.5576">quantity 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88.5186" x="33.9004" y="546.8545">contains 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100.3584" x="37.4502" y="563.1514">tradeItem 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89.5303" x="37.4502" y="579.4482">quantity 1..1</text><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="345.4453" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="346.4453" y2="346.4453" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="338.2969" y2="346.4453" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="361.7422" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="362.7422" y2="362.7422" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="346.4453" y2="362.7422" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="378.0391" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="379.0391" y2="379.0391" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="362.7422" y2="379.0391" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="30" y="394.3359" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="31" y1="395.3359" y2="395.3359" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="23" y1="379.0391" y2="395.3359" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="30" y="410.6328" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="31" y1="411.6328" y2="411.6328" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="23" y1="395.3359" y2="411.6328" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="426.9297" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="427.9297" y2="427.9297" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="379.0391" y2="427.9297" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="443.2266" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="444.2266" y2="444.2266" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="427.9297" y2="444.2266" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="459.5234" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="460.5234" y2="460.5234" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="444.2266" y2="460.5234" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="475.8203" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="476.8203" y2="476.8203" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="460.5234" y2="476.8203" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="492.1172" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="493.1172" y2="493.1172" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="476.8203" y2="493.1172" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="30" y="508.4141" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="31" y1="509.4141" y2="509.4141" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="23" y1="493.1172" y2="509.4141" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="30" y="524.7109" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="31" y1="525.7109" y2="525.7109" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="23" y1="509.4141" y2="525.7109" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="22" y="541.0078" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="23" y1="542.0078" y2="542.0078" /><line style="stroke:#000000;stroke-width:1;" x1="15" x2="15" y1="493.1172" y2="542.0078" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="30" y="557.3047" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="31" y1="558.3047" y2="558.3047" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="23" y1="542.0078" y2="558.3047" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="30" y="573.6016" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="31" y1="574.6016" y2="574.6016" /><line style="stroke:#000000;stroke-width:1;" x1="23" x2="23" y1="558.3047" y2="574.6016" /></g><!--class RI--><g class="entity" data-entity="RI" data-source-line="54" data-uid="ent0004" id="entity_RI"><rect fill="#F1F1F1" height="184.9688" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="249.8379" x="272.5" y="23.5" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="234.0898" x="280.374" y="41.4951">Regulated Item Authorisation</text><line style="stroke:#181818;stroke-width:0.5;" x1="273.5" x2="521.3379" y1="49.7969" y2="49.7969" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92.0869" x="294.9502" y="72.792">identifier 1..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.749" x="294.9502" y="89.0889">region 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73.8418" x="294.9502" y="105.3857">holder 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93.9941" x="302.9502" y="121.6826">identifier 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.8682" x="302.9502" y="137.9795">name 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157.8555" x="294.9502" y="154.2764">associatedProduct 0..*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137.2041" x="302.9502" y="170.5732">genericProduct 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89.5303" x="302.9502" y="186.8701">quantity 1..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.5127" x="294.9502" y="203.167">validityPeriod 0..1</text><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="287.5" y="66.9453" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="288.5" y1="67.9453" y2="67.9453" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="280.5" y1="59.7969" y2="67.9453" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="287.5" y="83.2422" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="288.5" y1="84.2422" y2="84.2422" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="280.5" y1="67.9453" y2="84.2422" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="287.5" y="99.5391" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="288.5" y1="100.5391" y2="100.5391" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="280.5" y1="84.2422" y2="100.5391" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="295.5" y="115.8359" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="296.5" y1="116.8359" y2="116.8359" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="288.5" y1="100.5391" y2="116.8359" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="295.5" y="132.1328" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="296.5" y1="133.1328" y2="133.1328" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="288.5" y1="116.8359" y2="133.1328" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="287.5" y="148.4297" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="288.5" y1="149.4297" y2="149.4297" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="280.5" y1="100.5391" y2="149.4297" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="295.5" y="164.7266" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="296.5" y1="165.7266" y2="165.7266" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="288.5" y1="149.4297" y2="165.7266" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="295.5" y="181.0234" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="296.5" y1="182.0234" y2="182.0234" /><line style="stroke:#000000;stroke-width:1;" x1="288.5" x2="288.5" y1="165.7266" y2="182.0234" /><rect fill="#F1F1F1" height="2" style="stroke:#000000;stroke-width:1;" width="2" x="287.5" y="197.3203" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="288.5" y1="198.3203" y2="198.3203" /><line style="stroke:#000000;stroke-width:1;" x1="280.5" x2="280.5" y1="149.4297" y2="198.3203" /></g><!--link GP to TI--><g class="link" data-entity-1="GP" data-entity-2="TI" data-source-line="69" data-uid="lnk5" id="link_GP_TI"><path codeLine="69" d="M128.5,225.39 C128.5,249.89 128.5,276.25 128.5,301.87" fill="none" id="GP-TI" style="stroke:#181818;stroke-width:1;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37.1909" x="129.5" y="268.0669">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text></g></g></svg>
+</figure>
+
+
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.pcmt#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 1, 2025 08:16+0000">2025-07-01</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)">
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" target="_blank" href="http://smart.who.int/pcmt/history.html">Version History</a> | <a style="color: #81BEF7" rel="license" href="license.html">License</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+<!-- Analytics Below
+================================================== -->
+
+
+
+

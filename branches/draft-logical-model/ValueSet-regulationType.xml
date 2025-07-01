@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="regulationType"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet regulationType</b></p><a name="regulationType"> </a><a name="hcregulationType"> </a><a name="regulationType-en-US"> </a><ul><li>Include all codes defined in <code>http://smart.who.int/pcmt/CodeSystem/regulationType</code></li></ul></div>
+  </text>
+  <url value="http://smart.who.int/pcmt/ValueSet/regulationType"/>
+  <version value="0.1.0"/>
+  <name value="regulationType"/>
+  <title value="Regulation Type for a Regulated Trade Product"/>
+  <status value="draft"/>
+  <date value="2025-01-30T22:40:14+00:00"/>
+  <publisher value="WHO"/>
+  <contact>
+    <name value="WHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://who.int"/>
+    </telecom>
+  </contact>
+  <description value="Regulated Trade Product Regulation type"/>
+  <compose>
+    <include>
+      <system value="http://smart.who.int/pcmt/CodeSystem/regulationType"/>
+    </include>
+  </compose>
+</ValueSet>

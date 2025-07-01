@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smart.who.int/pcmt/CodeSystem/tradeProductRelationship> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "tradeProductRelationship"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tradeProductRelationship</b></p><a name=\"tradeProductRelationship\"> </a><a name=\"hctradeProductRelationship\"> </a><a name=\"tradeProductRelationship-en-US\"> </a><p>This  code system <code>http://smart.who.int/pcmt/CodeSystem/tradeProductRelationship</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">contains<a name=\"tradeProductRelationship-contains\"> </a></td><td>This relationship is used to represent some packaging packgaing, assemblage of kits or other physical containment of trade products.    The TradeProduct contains the associated TradeProducts that are referenced</td></tr><tr><td style=\"white-space:nowrap\">vial_contains<a name=\"tradeProductRelationship-vial_contains\"> </a></td><td>This relationship is a speciialization of the #package-contains concept which represents that the trade product is a vial</td></tr><tr><td style=\"white-space:nowrap\">inner_pack_contains<a name=\"tradeProductRelationship-inner_pack_contains\"> </a></td><td>This relationship is a speciialization of the #package-contains concept which represents that the trade product is an inner pack</td></tr><tr><td style=\"white-space:nowrap\">case_contains<a name=\"tradeProductRelationship-case_contains\"> </a></td><td>This relationship is a speciialization of the #package-contains concept which represents that the trade product is a case</td></tr><tr><td style=\"white-space:nowrap\">pallet_contains<a name=\"tradeProductRelationship-pallet_contains\"> </a></td><td>This relationship is a speciialization of the #package-contains concept which represents that the trade product is a pallet</td></tr><tr><td style=\"white-space:nowrap\">equivalent<a name=\"tradeProductRelationship-equivalent\"> </a></td><td>This relationship indicates tha trade product is equivalent to the referenced trade product, for example such as with duplicate entries in a catalogue for the same phtsical item.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://smart.who.int/pcmt/CodeSystem/tradeProductRelationship"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "tradeProductRelationship"] ; # 
+  fhir:title [ fhir:v "Trade Product Relationship"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-01-30T22:40:14+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "WHO"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "WHO" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://who.int" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Trade ProductRelationship Code System"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "contains" ] ;
+     fhir:display [ fhir:v "This relationship is used to represent some packaging packgaing, assemblage of kits or other physical containment of trade products.    The TradeProduct contains the associated TradeProducts that are referenced" ]
+  ] [
+     fhir:code [ fhir:v "vial_contains" ] ;
+     fhir:display [ fhir:v "This relationship is a speciialization of the #package-contains concept which represents that the trade product is a vial" ]
+  ] [
+     fhir:code [ fhir:v "inner_pack_contains" ] ;
+     fhir:display [ fhir:v "This relationship is a speciialization of the #package-contains concept which represents that the trade product is an inner pack" ]
+  ] [
+     fhir:code [ fhir:v "case_contains" ] ;
+     fhir:display [ fhir:v "This relationship is a speciialization of the #package-contains concept which represents that the trade product is a case" ]
+  ] [
+     fhir:code [ fhir:v "pallet_contains" ] ;
+     fhir:display [ fhir:v "This relationship is a speciialization of the #package-contains concept which represents that the trade product is a pallet" ]
+  ] [
+     fhir:code [ fhir:v "equivalent" ] ;
+     fhir:display [ fhir:v "This relationship indicates tha trade product is equivalent to the referenced trade product, for example such as with duplicate entries in a catalogue for the same phtsical item." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

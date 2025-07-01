@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2d5b1176-bcb6-4eff-9725-05791ec96a4c-29",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2d5b1176-bcb6-4eff-9725-05791ec96a4c-29",
+  "name" : "UnionNameTypeAndNameType",
+  "title" : "Union of Name Type for a Product And Name Type for a Product",
+  "status" : "draft",
+  "date" : "2025-07-01T08:18:02+00:00"
+}

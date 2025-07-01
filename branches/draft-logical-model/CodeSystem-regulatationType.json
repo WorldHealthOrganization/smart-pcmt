@@ -1,0 +1,33 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "regulatationType",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem regulatationType</b></p><a name=\"regulatationType\"> </a><a name=\"hcregulatationType\"> </a><a name=\"regulatationType-en-US\"> </a><p>This  code system <code>http://smart.who.int/pcmt/CodeSystem/regulatationType</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">prequalified<a name=\"regulatationType-prequalified\"> </a></td><td>Pre-Qualified</td></tr><tr><td style=\"white-space:nowrap\">authorized-for-use<a name=\"regulatationType-authorized-for-use\"> </a></td><td>Authorized for use</td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/pcmt/CodeSystem/regulatationType",
+  "version" : "0.1.0",
+  "name" : "regulatationType",
+  "title" : "Trade Product Regulation Type",
+  "status" : "draft",
+  "date" : "2025-01-30T22:40:14+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Trade Product Regulation Status",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "prequalified",
+    "display" : "Pre-Qualified"
+  },
+  {
+    "code" : "authorized-for-use",
+    "display" : "Authorized for use"
+  }]
+}

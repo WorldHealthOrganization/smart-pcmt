@@ -1,0 +1,114 @@
+SMARTPCMT : Validation Results
+=========================================
+
+err = 1, warn = 59, info = 13
+IG Publisher Version: 1.8.10
+Generated Sat Feb 08 12:17:21 UTC 2025. FHIR version 5.0.0 for smart.who.int.pcmt#0.1.0 (canonical = http://smart.who.int/pcmt)
+ Build Errors : 0 / 3 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-AttributeType : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-ProductRelationship : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-RegulatationType : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-Status : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-pcmt-glossary-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.pcmt : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-GenericProduct : 0 / 13 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Product : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ProductAuthorization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-RegulatedTradeItem : 0 / 13 / 5
+ /github/workspace/fsh-generated/resources/StructureDefinition-TradeItem : 0 / 13 / 5
+ /github/workspace/fsh-generated/resources/ValueSet-AttributeType : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-NameType : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ProductRelationship : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-RegulationType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-Status : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-AttributeType.json ==
+INFORMATION: CodeSystem/AttributeType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/AttributeType: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/AttributeType: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-ProductRelationship.json ==
+INFORMATION: CodeSystem/ProductRelationship: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/ProductRelationship: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/ProductRelationship: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-RegulatationType.json ==
+INFORMATION: CodeSystem/RegulatationType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/RegulatationType: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/RegulatationType: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-Status.json ==
+INFORMATION: CodeSystem/Status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/Status: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/Status: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-pcmt-glossary-cs.json ==
+INFORMATION: CodeSystem/pcmt-glossary-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/pcmt-glossary-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/pcmt-glossary-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-smart.who.int.pcmt.json ==
+ERROR: ImplementationGuide/smart.who.int.pcmt: ImplementationGuide.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide)
+WARNING: ImplementationGuide/smart.who.int.pcmt: ImplementationGuide.meta.profile[0]: Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-GenericProduct.json ==
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.snapshot.element[52].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.snapshot.element[58].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.snapshot.element[64].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.snapshot.element[70].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.snapshot.element[76].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.differential.element[11].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.differential.element[17].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.differential.element[20].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.differential.element[23].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/GenericProduct: StructureDefinition: The definition builds on 'http://hl7.org/fhir/StructureDefinition/InventoryItem' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/GenericProduct: StructureDefinition.snapshot.element[10].binding: The definition for the element 'InventoryItem.status' binds to the value set 'http://hl7.org/fhir/ValueSet/inventoryitem-status|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/pcmt/StructureDefinition/GenericProduct'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-Product.json ==
+== fsh-generated/resources/StructureDefinition-ProductAuthorization.json ==
+== fsh-generated/resources/StructureDefinition-RegulatedTradeItem.json ==
+INFORMATION: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[20].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[30].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[48].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[58].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[64].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/RegulatedTradeItem: StructureDefinition.differential.element[6].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/RegulatedTradeItem: StructureDefinition.differential.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.differential.element[12].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.differential.element[15].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition: The definition builds on 'http://hl7.org/fhir/StructureDefinition/InventoryItem' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.differential.element[10].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[10].binding: The definition for the element 'InventoryItem.status' binds to the value set 'http://hl7.org/fhir/ValueSet/inventoryitem-status|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[20].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/RegulatedTradeItem: StructureDefinition.snapshot.element[48].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/pcmt/StructureDefinition/RegulatedTradeItem'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-TradeItem.json ==
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[20].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[30].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[48].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[58].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[64].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.differential.element[6].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: StructureDefinition/TradeItem: StructureDefinition.differential.element[9].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[11].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/TradeItem: StructureDefinition: The definition builds on 'http://hl7.org/fhir/StructureDefinition/InventoryItem' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/TradeItem: StructureDefinition.differential.element[9].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[10].binding: The definition for the element 'InventoryItem.status' binds to the value set 'http://hl7.org/fhir/ValueSet/inventoryitem-status|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[20].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/TradeItem: StructureDefinition.snapshot.element[48].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/pcmt/StructureDefinition/TradeItem'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-AttributeType.json ==
+WARNING: ValueSet/AttributeType: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-NameType.json ==
+WARNING: ValueSet/NameType: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ProductRelationship.json ==
+WARNING: ValueSet/ProductRelationship: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-RegulationType.json ==
+WARNING: ValueSet/RegulationType: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'RegulationType'): Error from http://tx.fhir.org/r5: Unable to provide support for code system http://smart.who.int/pcmt/CodeSystem/RegulationType
+== fsh-generated/resources/ValueSet-Status.json ==
+WARNING: ValueSet/Status: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

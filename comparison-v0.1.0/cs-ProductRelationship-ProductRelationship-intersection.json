@@ -1,0 +1,33 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "2d5b1176-bcb6-4eff-9725-05791ec96a4c-6",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2d5b1176-bcb6-4eff-9725-05791ec96a4c-6",
+  "name" : "IntersectionProductRelationshipAndProductRelationship",
+  "title" : "Intersection of Product Relationship And Product Relationship",
+  "status" : "draft",
+  "date" : "2025-07-01T08:18:01+00:00",
+  "concept" : [{
+    "code" : "contains",
+    "display" : "This relationship is used to represent some packaging packgaing, assemblage of kits or other physical containment of products.    The Product contains the associated Products that are referenced"
+  },
+  {
+    "code" : "vial_contains",
+    "display" : "This relationship is a speciialization of the #package-contains concept which represents that the product is a vial"
+  },
+  {
+    "code" : "inner_pack_contains",
+    "display" : "This relationship is a speciialization of the #package-contains concept which represents that the product is an inner pack"
+  },
+  {
+    "code" : "case_contains",
+    "display" : "This relationship is a speciialization of the #package-contains concept which represents that the product is a case"
+  },
+  {
+    "code" : "pallet_contains",
+    "display" : "This relationship is a speciialization of the #package-contains concept which represents that the product is a pallet"
+  },
+  {
+    "code" : "equivalent",
+    "display" : "This relationship indicates tha product is equivalent to the referenced product, for example such as with duplicate entries in a catalogue for the same phtsical item."
+  }]
+}
