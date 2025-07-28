@@ -18,19 +18,31 @@ skinparam class<<TM>> {
  HeaderBackgroundColor SkyBlue
 }
 
-    class "** Generic Product **" as GP {
-        |_ identifier 0..* 
-        |_ status 1..1
-        |_ productName 0..*
-          |_ nameType 1..1
-          |_ name 1..1
-        |_ description 0..1
-        |_ classification 0..*
-        |_ unitOfUse 1..1
-        |_ dosageForm 0..1
-        |_ strength 0..1
-        |_ routeOfAdministration 0..*  
-    }
+
+class "**Generic Product**" as GenericProduct {
+  |_ identifier 0..*   
+  |_ status 1..1   
+  |_ name 1..*   
+    |_ nameType 1..1   
+    |_ nameValue 1..1   
+  |_ description 0..1   
+  |_ classification 0..*   
+  |_ unitOfUse 1..1   
+  |_ dosageForm 0..1   
+  |_ strength 0..1   
+  |_ routeOfAdministration 0..*   
+  |_ manufacturer 0..1   
+  |_ countryOfOrigin 0..1   
+  |_ shelfLife 0..1   
+  |_ doseQuantity 0..1   
+  |_ attribute 0..*   
+    |_ type 1..1   
+    |_ value[x] 1..1   
+  |_ associatedProduct 0..*   
+    |_ product 1..1   
+    |_ relationship 1..*   
+    |_ quantity 1..1   
+}
 
 
     class "**Trade Item**" as TI {
@@ -39,8 +51,9 @@ skinparam class<<TM>> {
             |_ tradeItemName 0..*
               |_ nameType 1..1
               |_ name 1..1
-            |_ manufacturerName 1..1
-            |_ manufacturerId 0..1
+            |_ description 0..1   
+            |_ classification 0..*   
+            |_ manufacturer 0..1
             |_ countryOfOrigin 1..1
             |_ shelfLife 0..1
             |_ associatedGenericProduct 0..*  
@@ -49,21 +62,27 @@ skinparam class<<TM>> {
             |_  contains 0..*
               |_ tradeItem 1..1
               |_ quantity 1..1
+            |_ attribute 0..*   
+              |_ type 1..1   
+              |_ value[x] 1..1   
     }
 
 
-    class "** Regulated Item Authorisation **" as RI {
-        |_ identifier 1..*  
-        |_ region 1..1
-        |_ holder 0..*
-          |_ identifier 1..1
-          |_ name 1..1
-        |_ associatedProduct 0..*
-          |_ genericProduct 1..1
-          |_ quantity 1..1
-        |_ validityPeriod 0..1
-    }
-
+class "**RegulatedTradeItem**" as RegulatedTradeItem {
+  |_ identifier 0..1   
+  |_ status 1..1   
+  |_ jurisdiction 1..*   
+  |_ authorisationHolder 1..1   
+  |_ validityPeriod 0..1   
+  |_ authorisedTradeItem 1..1   
+  |_ attribute 0..*   
+    |_ type 1..1   
+    |_ value[x] 1..1   
+  |_ associatedProduct 0..*   
+    |_ product 1..1   
+    |_ relationship 1..*   
+    |_ quantity 1..1   
+}
 
 
 
