@@ -18,16 +18,20 @@ Characteristics: #can-be-target
 // * description 0..1 string "The description of the product"
 * manufacturer 0..1 Reference(IHE.mCSD.Organization) "Manufacturer"
 * countryOfOrigin 0..1 CodeableConcept "The country of origin"
+* countryOfOrigin from http://smart.who.int/refmart/ValueSet/COUNTRYISO3 (example)
 * shelfLife 0..1 SimpleQuantity "The shelf life of the product in days"
 * unitOfUse 1..1 CodeableConcept "The unit in which the generic product is used / counted"
   // do we have a better name?
 * dosageForm 0..1 CodeableConcept "The physical form of the medication"
+* dosageForm from 	http://terminology.hl7.org/ValueSet/v3-DispensableDrugForm (example)
 * routeOfAdministration 0..* CodeableConcept "The route of administration of the medication"
+* routeOfAdministration from http://terminology.ehdsi.eu/ValueSet/eHDSIRouteofAdministration (example)
+
 * doseQuantity 0..1 SimpleQuantity "The number of doses in this package"
 * strength 0..1 SimpleQuantity "The strength of the product e.g. 500 mg"
 
-* attribute 0..* BackboneElement "Attributes or characterisitics of the product"
-  * type 1..1 CodeableConcept "The attribute type (e.g. a physcial dimension)"
+* attribute 0..* BackboneElement "Attributes or characteristics of the product"
+  * type 1..1 CodeableConcept "The attribute type (e.g. a physical dimension)"
   * type from AttributeType (extensible)
   * value[x] 1..1 string or integer or decimal or boolean or url or dateTime or Range or Ratio or Annotation or Address or Duration or CodeableConcept "The value of the attribute"
 
