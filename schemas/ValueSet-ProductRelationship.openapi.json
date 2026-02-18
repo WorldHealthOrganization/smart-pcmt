@@ -1,0 +1,52 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Product Relationships Schema API",
+    "description": "JSON Schema for Product Relationships ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-ProductRelationship.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-ProductRelationship",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-ProductRelationship.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-ProductRelationship",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-ProductRelationship.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-ProductRelationship": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.schema.json",
+        "title": "Product Relationships Schema",
+        "description": "JSON Schema for Product Relationships ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/pcmt/CodeSystem/ProductRelationship#contains",
+          "http://smart.who.int/pcmt/CodeSystem/ProductRelationship#vial_contains",
+          "http://smart.who.int/pcmt/CodeSystem/ProductRelationship#inner_pack_contains",
+          "http://smart.who.int/pcmt/CodeSystem/ProductRelationship#case_contains",
+          "http://smart.who.int/pcmt/CodeSystem/ProductRelationship#pallet_contains",
+          "http://smart.who.int/pcmt/CodeSystem/ProductRelationship#equivalent"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Product Relationships ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/pcmt/ValueSet-ProductRelationship.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.displays.json",
+        "fhir:valueSet": "http://smart.who.int/pcmt/ValueSet/ProductRelationship",
+        "fhir:version": "0.2.0",
+        "fhir:expansionTimestamp": "2026-02-18T13:42:53.588549"
+      }
+    }
+  }
+}

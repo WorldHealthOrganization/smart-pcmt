@@ -1,0 +1,131 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "LogicalModels Enumeration API",
+    "description": "API endpoint providing an enumeration of all available Logical Model schemas",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/LogicalModels.schema.json": {
+      "get": {
+        "summary": "Get enumeration of all logical_model schemas",
+        "description": "Returns a list of all available logical_model schemas with metadata",
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved logical_model enumeration",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnumerationResponse"
+                },
+                "example": {
+                  "type": "logical_model",
+                  "count": 2,
+                  "schemas": [
+                    {
+                      "filename": "StructureDefinition-Product.schema.json",
+                      "id": "http://smart.who.int/base/StructureDefinition-Product.schema.json",
+                      "title": "Product",
+                      "description": "A Product represents a physical item or set of items which can be held in inventory, ordered, exchanged, dispensed or other utilized within the health system, clinical and supply chain workflows.",
+                      "url": "./StructureDefinition-Product.schema.json",
+                      "propertyCount": 27
+                    },
+                    {
+                      "filename": "StructureDefinition-ProductAuthorization.schema.json",
+                      "id": "http://smart.who.int/base/StructureDefinition-ProductAuthorization.schema.json",
+                      "title": "Product Authorization",
+                      "description": "A record of authorization or compliance for one or more Products with a set of regulatory, policy, (pre-)qualification, or legal requirements.",
+                      "url": "./StructureDefinition-ProductAuthorization.schema.json",
+                      "propertyCount": 10
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EnumerationResponse": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "#/LogicalModels.schema.json",
+        "title": "Logical Model Enumeration Schema",
+        "description": "JSON Schema defining the structure of the Logical Model enumeration endpoint response",
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "logical_model"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "schemas": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "filename": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "logicalModelUrl": {
+                  "type": "string"
+                },
+                "propertyCount": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "filename",
+                "title",
+                "url"
+              ]
+            }
+          }
+        },
+        "required": [
+          "type",
+          "count",
+          "schemas"
+        ],
+        "example": {
+          "type": "logical_model",
+          "count": 2,
+          "schemas": [
+            {
+              "filename": "StructureDefinition-Product.schema.json",
+              "id": "http://smart.who.int/base/StructureDefinition-Product.schema.json",
+              "title": "Product",
+              "description": "A Product represents a physical item or set of items which can be held in inventory, ordered, exchanged, dispensed or other utilized within the health system, clinical and supply chain workflows.",
+              "url": "./StructureDefinition-Product.schema.json",
+              "propertyCount": 27
+            },
+            {
+              "filename": "StructureDefinition-ProductAuthorization.schema.json",
+              "id": "http://smart.who.int/base/StructureDefinition-ProductAuthorization.schema.json",
+              "title": "Product Authorization",
+              "description": "A record of authorization or compliance for one or more Products with a set of regulatory, policy, (pre-)qualification, or legal requirements.",
+              "url": "./StructureDefinition-ProductAuthorization.schema.json",
+              "propertyCount": 10
+            }
+          ]
+        }
+      }
+    }
+  }
+}

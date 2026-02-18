@@ -1,0 +1,41 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smart.who.int/pcmt/CodeSystem/regulatationType> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "regulatationType"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem regulatationType</b></p><a name=\"regulatationType\"> </a><a name=\"hcregulatationType\"> </a><a name=\"regulatationType-en-US\"> </a><p>This  code system <code>http://smart.who.int/pcmt/CodeSystem/regulatationType</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">prequalified<a name=\"regulatationType-prequalified\"> </a></td><td>Pre-Qualified</td></tr><tr><td style=\"white-space:nowrap\">authorized-for-use<a name=\"regulatationType-authorized-for-use\"> </a></td><td>Authorized for use</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://smart.who.int/pcmt/CodeSystem/regulatationType"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "regulatationType"] ; # 
+  fhir:title [ fhir:v "Trade Product Regulation Type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-01-30T22:40:14+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "WHO"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "WHO" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://who.int" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Trade Product Regulation Status"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "prequalified" ] ;
+     fhir:display [ fhir:v "Pre-Qualified" ]
+  ] [
+     fhir:code [ fhir:v "authorized-for-use" ] ;
+     fhir:display [ fhir:v "Authorized for use" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

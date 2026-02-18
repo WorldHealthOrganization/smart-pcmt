@@ -1,0 +1,8 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/device-nametype,5.0.0,active,"2.16.840.1.113883.4.642.4.1084",DeviceNameType,Device Name Type,"The type of name the device is referred by.","ValueSet/NameType"
+http://hl7.org/fhir/inventoryitem-nametype,5.0.0,active,,InventoryItemNameType,InventoryItem Name Type,"InventoryItem Name Type","ValueSet/inventoryitem-nametype"
+http://hl7.org/fhir/inventoryitem-status,5.0.0,active,,InventoryItemStatus,InventoryItem Status Codes,"InventoryItem Status Codes","ValueSet/inventoryitem-status"
+http://smart.who.int/pcmt/CodeSystem/AttributeType,0.1.0,draft,,AttributeType,Attribute type of Products,"Attribute type of Products","ValueSet/AttributeType"
+http://smart.who.int/pcmt/CodeSystem/ProductRelationship,0.1.0,draft,,ProductRelationship,Product Relationship,"ProductRelationship Code System","ValueSet/ProductRelationship"
+http://smart.who.int/pcmt/CodeSystem/Status,0.1.0,draft,,Status,Product and regulatory authorization status,"Product and regulatory authorization status","ValueSet/Status"
+urn:ietf:bcp:47,2.0.0,active,"2.16.840.1.113883.6.121",Ietf3066,Tags for the Identification of Languages,"Older value from OID registry.  Superceded; see recommendations in BCP-47.","ValueSet/languages,ValueSet/all-languages"

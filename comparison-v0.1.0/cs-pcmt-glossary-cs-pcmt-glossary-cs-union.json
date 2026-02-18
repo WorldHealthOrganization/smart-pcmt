@@ -1,0 +1,13 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "4762e583-5d36-4312-9fb9-b6925d3c6493-14",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4762e583-5d36-4312-9fb9-b6925d3c6493-14",
+  "name" : "UnionPCMTGlossaryAndPCMTGlossary",
+  "title" : "Union of PCMT Term glossary And PCMT Term glossary",
+  "status" : "draft",
+  "date" : "2026-02-18T13:42:31+00:00",
+  "concept" : [{
+    "code" : "unitOfUse",
+    "display" : "The base unit to count by"
+  }]
+}

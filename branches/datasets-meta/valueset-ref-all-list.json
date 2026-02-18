@@ -1,0 +1,131 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-TradeItem.html" : "TradeItem",
+      "StructureDefinition-GenericProduct.html" : "GenericProduct",
+      "StructureDefinition-RegulatedTradeItem.html" : "RegulatedTradeItem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/inventoryitem-nametype",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "InventoryItemStatusCodes",
+      "title" : "InventoryItem Name Typess",
+      "description" : "InventoryItem Name Types",
+      "systems" : ["http://hl7.org/fhir/inventoryitem-nametype"],
+      "uses" : {
+      },
+      "StructureDefinition-TradeItem.html" : "TradeItem",
+      "StructureDefinition-GenericProduct.html" : "GenericProduct",
+      "StructureDefinition-RegulatedTradeItem.html" : "RegulatedTradeItem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/inventoryitem-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "InventoryItemStatusCodes",
+      "title" : "InventoryItem Status Codes",
+      "description" : "InventoryItem Status Codes",
+      "systems" : ["http://hl7.org/fhir/inventoryitem-status"],
+      "uses" : {
+      },
+      "StructureDefinition-TradeItem.html" : "TradeItem",
+      "StructureDefinition-GenericProduct.html" : "GenericProduct",
+      "StructureDefinition-RegulatedTradeItem.html" : "RegulatedTradeItem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-TradeItem.html" : "TradeItem",
+      "StructureDefinition-GenericProduct.html" : "GenericProduct",
+      "StructureDefinition-RegulatedTradeItem.html" : "RegulatedTradeItem"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/AttributeType",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AttributeType",
+      "title" : "AttributeType for a Product",
+      "description" : "Product status",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/AttributeType"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/NameType",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "NameType",
+      "title" : "Name Type for a Product",
+      "description" : "Product name type",
+      "systems" : ["http://hl7.org/fhir/device-nametype"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/ProductRelationship",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProductRelationship",
+      "title" : "Product Relationships",
+      "description" : "Product relationship value set",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/ProductRelationship"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/RegulationType",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RegulationType",
+      "title" : "Regulation Type for a Regulated Product",
+      "description" : "Regulated Product Regulation type",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/RegulationType"],
+      "uses" : {
+      },
+      "StructureDefinition-ProductAuthorization.html" : "Product Authorization"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/Status",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "Status",
+      "title" : "Status for a Product",
+      "description" : "Product status",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/Status"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product",
+      "StructureDefinition-ProductAuthorization.html" : "Product Authorization"
+    }
+  ]
+}

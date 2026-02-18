@@ -1,0 +1,36 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"GenericProductModel","GenericProductModel","","","",0,*,"","","","null {[]} {[]}
+","Generic Product","Generic Product","","","","","","","","","",,,,,"",,,,"Base",0,*,"","","n/a"
+"GenericProductModel.identifier","GenericProductModel.identifier","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifier for the generic product","Identifier for the generic product","","","","","","","","","",,,,,"",,,,"GenericProductModel.identifier",0,*,"",""
+"GenericProductModel.status","GenericProductModel.status","","","",1,1,"","","","code {[]} {[]}
+","Product status","The status of the product in the catalog e.g. 'active' 'inactive'","","","","","","","","","",,,,,"",,,,"GenericProductModel.status",1,1,"",""
+"GenericProductModel.productName","GenericProductModel.productName","","","",1,*,"","","","BackboneElement {[]} {[]}
+","The product Name(s)","The product Name(s)","","","","","","","","","",,,,,"",,,,"GenericProductModel.productName",1,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"GenericProductModel.productName.id","GenericProductModel.productName.id","","","",0,1,"","","","id {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","","n/a"
+"GenericProductModel.productName.extension","GenericProductModel.productName.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"GenericProductModel.productName.modifierExtension","GenericProductModel.productName.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"GenericProductModel.productName.nameType","GenericProductModel.productName.nameType","","","",1,1,"","","","code {[]} {[]}
+","The type of name e.g. 'official' or 'user-friendly'","The type of name e.g. 'official' or 'user-friendly'","","","","","","","","","",,,,,"",,,,"GenericProductModel.productName.nameType",1,1,"",""
+"GenericProductModel.productName.name","GenericProductModel.productName.name","","","",1,1,"","","","string {[]} {[]}
+","The name of the product","The name of the product","","","","","","","","","",,,,,"",,,,"GenericProductModel.productName.name",1,1,"",""
+"GenericProductModel.description","GenericProductModel.description","","","",0,1,"","","","string {[]} {[]}
+","The description of the product","The description of the product","","","","","","","","","",,,,,"",,,,"GenericProductModel.description",0,1,"",""
+"GenericProductModel.classification","GenericProductModel.classification","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","A categorization or classification of the product e.g. ATC or others","A categorization or classification of the product e.g. ATC or others","","","","","","","","","",,,,,"",,,,"GenericProductModel.classification",0,*,"",""
+"GenericProductModel.dosageForm","GenericProductModel.dosageForm","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","The physical form of the medication","The physical form of the medication","","","","","","","","","",,,,,"",,,,"GenericProductModel.dosageForm",0,1,"",""
+"GenericProductModel.routeOfAdministration","GenericProductModel.routeOfAdministration","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","The route of administration of the medication","The route of administration of the medication","","","","","","","","","",,,,,"",,,,"GenericProductModel.routeOfAdministration",0,*,"",""

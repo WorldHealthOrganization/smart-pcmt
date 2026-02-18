@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-02-18T13:42:53.684427Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.jsonld#contains",
+      "name": "This relationship is used to represent some packaging packgaing, assemblage of kits or other physical containment of products.    The Product contains the associated Products that are referenced",
+      "fhir:code": "contains",
+      "fhir:CodeSystem": "http://smart.who.int/pcmt/CodeSystem-ProductRelationship"
+    },
+    {
+      "id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.jsonld#vial_contains",
+      "name": "This relationship is a speciialization of the #package-contains concept which represents that the product is a vial",
+      "fhir:code": "vial_contains",
+      "fhir:CodeSystem": "http://smart.who.int/pcmt/CodeSystem-ProductRelationship"
+    },
+    {
+      "id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.jsonld#inner_pack_contains",
+      "name": "This relationship is a speciialization of the #package-contains concept which represents that the product is an inner pack",
+      "fhir:code": "inner_pack_contains",
+      "fhir:CodeSystem": "http://smart.who.int/pcmt/CodeSystem-ProductRelationship"
+    },
+    {
+      "id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.jsonld#case_contains",
+      "name": "This relationship is a speciialization of the #package-contains concept which represents that the product is a case",
+      "fhir:code": "case_contains",
+      "fhir:CodeSystem": "http://smart.who.int/pcmt/CodeSystem-ProductRelationship"
+    },
+    {
+      "id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.jsonld#pallet_contains",
+      "name": "This relationship is a speciialization of the #package-contains concept which represents that the product is a pallet",
+      "fhir:code": "pallet_contains",
+      "fhir:CodeSystem": "http://smart.who.int/pcmt/CodeSystem-ProductRelationship"
+    },
+    {
+      "id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.jsonld#equivalent",
+      "name": "This relationship indicates tha product is equivalent to the referenced product, for example such as with duplicate entries in a catalogue for the same phtsical item.",
+      "fhir:code": "equivalent",
+      "fhir:CodeSystem": "http://smart.who.int/pcmt/CodeSystem-ProductRelationship"
+    }
+  ]
+}

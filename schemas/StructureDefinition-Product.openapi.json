@@ -1,0 +1,573 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Product API",
+    "description": "A Product represents a physical item or set of items which can be held in inventory, ordered, exchanged, dispensed or other utilized within the health system, clinical and supply chain workflows.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/StructureDefinition-Product.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the Logical Model StructureDefinition-Product",
+        "description": "This endpoint serves the JSON Schema definition for the Logical Model StructureDefinition-Product.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for StructureDefinition-Product",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./StructureDefinition-Product.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "StructureDefinition-Product": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/base/StructureDefinition-Product.schema.json",
+        "title": "Product",
+        "description": "A Product represents a physical item or set of items which can be held in inventory, ordered, exchanged, dispensed or other utilized within the health system, clinical and supply chain workflows.",
+        "type": "object",
+        "properties": {
+          "resourceType": {
+            "type": "string",
+            "const": "Product",
+            "description": "Resource type identifier for Product logical model"
+          },
+          "@context": {
+            "description": "JSON-LD context for this logical model with ValueSet vocabularies",
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri",
+                "description": "URI reference to external JSON-LD context"
+              },
+              {
+                "type": "object",
+                "description": "Inline JSON-LD context",
+                "properties": {
+                  "@version": {
+                    "type": "number",
+                    "const": 1.1
+                  },
+                  "fhir": {
+                    "type": "string",
+                    "const": "http://hl7.org/fhir/"
+                  }
+                },
+                "additionalProperties": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              {
+                "type": "array",
+                "description": "Array of JSON-LD context objects/URIs",
+                "items": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "object"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "@type": {
+            "type": "string",
+            "description": "JSON-LD type identifier for Product logical model",
+            "examples": [
+              "LogicalModel-Product"
+            ]
+          },
+          "identifier": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "description": "Identifier for the product (e.g. SKUs, GTINs)"
+          },
+          "name": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "description": "FHIR BackboneElement"
+            },
+            "minItems": 1,
+            "description": "The name of the product"
+          },
+          "id": {
+            "type": "object",
+            "description": "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."
+          },
+          "modifierExtension": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "description": "FHIR Extension"
+            },
+            "description": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."
+          },
+          "nameType": {
+            "oneOf": [
+              {
+                "type": "string",
+                "description": "Code from ValueSet NameType (plain string)"
+              },
+              {
+                "type": "object",
+                "description": "Code from ValueSet NameType (JSON-LD structure)",
+                "properties": {
+                  "@type": {
+                    "type": "string",
+                    "const": "http://smart.who.int/base/ValueSet-NameType.jsonld",
+                    "description": "JSON-LD type reference to ValueSet NameType"
+                  },
+                  "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Full IRI of the code from ValueSet NameType"
+                  }
+                },
+                "required": [
+                  "@type",
+                  "@id"
+                ],
+                "additionalProperties": false
+              }
+            ],
+            "description": "The type of name e.g. 'official' or 'user-friendly'"
+          },
+          "value": {
+            "type": "string",
+            "description": "The name of the product"
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of the product"
+          },
+          "classification": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "description": "A categorization or classification of the product e.g. ICDS-11, ATC, WHODrug or others"
+          },
+          "status": {
+            "oneOf": [
+              {
+                "type": "string",
+                "description": "Code from ValueSet Status (plain string)"
+              },
+              {
+                "type": "object",
+                "description": "Code from ValueSet Status (JSON-LD structure)",
+                "properties": {
+                  "@type": {
+                    "type": "string",
+                    "const": "http://smart.who.int/base/ValueSet-Status.jsonld",
+                    "description": "JSON-LD type reference to ValueSet Status"
+                  },
+                  "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Full IRI of the code from ValueSet Status"
+                  }
+                },
+                "required": [
+                  "@type",
+                  "@id"
+                ],
+                "additionalProperties": false
+              }
+            ],
+            "description": "The status of the product in the catalog e.g. 'active' 'inactive'"
+          },
+          "manufacturer": {
+            "type": "object",
+            "description": "Manufacturer"
+          },
+          "countryOfOrigin": {
+            "oneOf": [
+              {
+                "type": "object",
+                "description": "FHIR CodeableConcept from ValueSet COUNTRYISO3",
+                "properties": {
+                  "system": {
+                    "type": "string",
+                    "description": "Code system URI"
+                  },
+                  "code": {
+                    "type": "string",
+                    "description": "Code value"
+                  },
+                  "display": {
+                    "type": "string",
+                    "description": "Human readable display text"
+                  }
+                },
+                "required": [
+                  "system",
+                  "code"
+                ]
+              },
+              {
+                "type": "object",
+                "description": "CodeableConcept from ValueSet COUNTRYISO3 (JSON-LD structure)",
+                "properties": {
+                  "@type": {
+                    "type": "string",
+                    "const": "http://smart.who.int/base/ValueSet-COUNTRYISO3.jsonld",
+                    "description": "JSON-LD type reference to ValueSet COUNTRYISO3"
+                  },
+                  "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Full IRI of the code from ValueSet COUNTRYISO3"
+                  }
+                },
+                "required": [
+                  "@type",
+                  "@id"
+                ],
+                "additionalProperties": false
+              }
+            ],
+            "description": "The country of origin"
+          },
+          "shelfLife": {
+            "type": "object",
+            "description": "The shelf life of the product in days"
+          },
+          "unitOfUse": {
+            "type": "object",
+            "description": "The unit in which the generic product is used / counted"
+          },
+          "dosageForm": {
+            "oneOf": [
+              {
+                "type": "object",
+                "description": "FHIR CodeableConcept from ValueSet v3-DispensableDrugForm",
+                "properties": {
+                  "system": {
+                    "type": "string",
+                    "description": "Code system URI"
+                  },
+                  "code": {
+                    "type": "string",
+                    "description": "Code value"
+                  },
+                  "display": {
+                    "type": "string",
+                    "description": "Human readable display text"
+                  }
+                },
+                "required": [
+                  "system",
+                  "code"
+                ]
+              },
+              {
+                "type": "object",
+                "description": "CodeableConcept from ValueSet v3-DispensableDrugForm (JSON-LD structure)",
+                "properties": {
+                  "@type": {
+                    "type": "string",
+                    "const": "http://smart.who.int/base/ValueSet-v3-DispensableDrugForm.jsonld",
+                    "description": "JSON-LD type reference to ValueSet v3-DispensableDrugForm"
+                  },
+                  "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Full IRI of the code from ValueSet v3-DispensableDrugForm"
+                  }
+                },
+                "required": [
+                  "@type",
+                  "@id"
+                ],
+                "additionalProperties": false
+              }
+            ],
+            "description": "The physical form of the medication"
+          },
+          "routeOfAdministration": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "description": "FHIR CodeableConcept from ValueSet eHDSIRouteofAdministration",
+                  "properties": {
+                    "system": {
+                      "type": "string",
+                      "description": "Code system URI"
+                    },
+                    "code": {
+                      "type": "string",
+                      "description": "Code value"
+                    },
+                    "display": {
+                      "type": "string",
+                      "description": "Human readable display text"
+                    }
+                  },
+                  "required": [
+                    "system",
+                    "code"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "description": "CodeableConcept from ValueSet eHDSIRouteofAdministration (JSON-LD structure)",
+                  "properties": {
+                    "@type": {
+                      "type": "string",
+                      "const": "http://smart.who.int/base/ValueSet-eHDSIRouteofAdministration.jsonld",
+                      "description": "JSON-LD type reference to ValueSet eHDSIRouteofAdministration"
+                    },
+                    "@id": {
+                      "type": "string",
+                      "format": "uri",
+                      "description": "Full IRI of the code from ValueSet eHDSIRouteofAdministration"
+                    }
+                  },
+                  "required": [
+                    "@type",
+                    "@id"
+                  ],
+                  "additionalProperties": false
+                }
+              ],
+              "description": "CodeableConcept from ValueSet eHDSIRouteofAdministration. Supports both FHIR Coding structure and JSON-LD structure."
+            },
+            "description": "The route of administration of the medication"
+          },
+          "doseQuantity": {
+            "type": "object",
+            "description": "The number of doses in this package"
+          },
+          "strength": {
+            "type": "object",
+            "description": "The strength of the product e.g. 500 mg"
+          },
+          "attribute": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "description": "FHIR BackboneElement"
+            },
+            "description": "Attributes or characteristics of the product"
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "object",
+                "description": "FHIR CodeableConcept from ValueSet AttributeType",
+                "properties": {
+                  "system": {
+                    "type": "string",
+                    "description": "Code system URI"
+                  },
+                  "code": {
+                    "type": "string",
+                    "description": "Code value"
+                  },
+                  "display": {
+                    "type": "string",
+                    "description": "Human readable display text"
+                  }
+                },
+                "required": [
+                  "system",
+                  "code"
+                ]
+              },
+              {
+                "type": "object",
+                "description": "CodeableConcept from ValueSet AttributeType (JSON-LD structure)",
+                "properties": {
+                  "@type": {
+                    "type": "string",
+                    "const": "http://smart.who.int/base/ValueSet-AttributeType.jsonld",
+                    "description": "JSON-LD type reference to ValueSet AttributeType"
+                  },
+                  "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Full IRI of the code from ValueSet AttributeType"
+                  }
+                },
+                "required": [
+                  "@type",
+                  "@id"
+                ],
+                "additionalProperties": false
+              }
+            ],
+            "description": "The attribute type (e.g. a physical dimension)"
+          },
+          "value[x]": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "object"
+              },
+              {
+                "type": "object",
+                "description": "FHIR Ratio"
+              },
+              {
+                "type": "object",
+                "description": "FHIR Annotation"
+              },
+              {
+                "type": "object"
+              },
+              {
+                "type": "object",
+                "description": "FHIR Duration"
+              },
+              {
+                "type": "object"
+              }
+            ],
+            "description": "The value of the attribute"
+          },
+          "associatedProduct": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "description": "FHIR BackboneElement"
+            },
+            "description": "Association(s) between a product and referenced products. Such relationships could be for packaging, representing duplicates/semantic equivalencies between Products, etc"
+          },
+          "product": {
+            "type": "object",
+            "description": "The generic product characteristics"
+          },
+          "relationship": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "description": "FHIR Coding from ValueSet ProductRelationship",
+                  "properties": {
+                    "system": {
+                      "type": "string",
+                      "description": "Code system URI"
+                    },
+                    "code": {
+                      "type": "string",
+                      "description": "Code value"
+                    },
+                    "display": {
+                      "type": "string",
+                      "description": "Human readable display text"
+                    }
+                  },
+                  "required": [
+                    "system",
+                    "code"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "description": "Coding from ValueSet ProductRelationship (JSON-LD structure)",
+                  "properties": {
+                    "@type": {
+                      "type": "string",
+                      "const": "http://smart.who.int/base/ValueSet-ProductRelationship.jsonld",
+                      "description": "JSON-LD type reference to ValueSet ProductRelationship"
+                    },
+                    "@id": {
+                      "type": "string",
+                      "format": "uri",
+                      "description": "Full IRI of the code from ValueSet ProductRelationship"
+                    }
+                  },
+                  "required": [
+                    "@type",
+                    "@id"
+                  ],
+                  "additionalProperties": false
+                }
+              ],
+              "description": "Coding from ValueSet ProductRelationship. Supports both FHIR Coding structure and JSON-LD structure."
+            },
+            "minItems": 1,
+            "description": "The relationship of the the product to the refereneced product"
+          },
+          "quantity": {
+            "type": "object",
+            "description": "how many units of use of the generic product are in the product"
+          }
+        },
+        "required": [
+          "resourceType",
+          "name",
+          "nameType",
+          "value",
+          "status",
+          "unitOfUse",
+          "type",
+          "value[x]",
+          "product",
+          "relationship",
+          "quantity"
+        ],
+        "resourceDefinition": "http://smart.who.int/pcmt/StructureDefinition/Product",
+        "fhir:parent": "http://hl7.org/fhir/StructureDefinition/Base",
+        "jsonld:valuesets": [
+          "v3-DispensableDrugForm",
+          "Status",
+          "AttributeType",
+          "COUNTRYISO3",
+          "eHDSIRouteofAdministration",
+          "ProductRelationship",
+          "NameType"
+        ],
+        "jsonld:contextTemplate": {
+          "@version": 1.1,
+          "fhir": "http://hl7.org/fhir/",
+          "v3-DispensableDrugForm": "http://smart.who.int/base/ValueSet-v3-DispensableDrugForm.jsonld",
+          "Status": "http://smart.who.int/base/ValueSet-Status.jsonld",
+          "AttributeType": "http://smart.who.int/base/ValueSet-AttributeType.jsonld",
+          "COUNTRYISO3": "http://smart.who.int/base/ValueSet-COUNTRYISO3.jsonld",
+          "eHDSIRouteofAdministration": "http://smart.who.int/base/ValueSet-eHDSIRouteofAdministration.jsonld",
+          "ProductRelationship": "http://smart.who.int/base/ValueSet-ProductRelationship.jsonld",
+          "NameType": "http://smart.who.int/base/ValueSet-NameType.jsonld"
+        }
+      }
+    }
+  }
+}

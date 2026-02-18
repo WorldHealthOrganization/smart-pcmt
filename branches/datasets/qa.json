@@ -1,0 +1,19 @@
+{
+  "url" : "http://smart.who.int/pcmt/ImplementationGuide/smart.who.int.pcmt",
+  "name" : "SMARTPCMT",
+  "title" : "SMART Product Catalog",
+  "description" : "Data exchange specifications for Product Catalog supporting the SMART Guidelines",
+  "status" : "draft",
+  "package-id" : "smart.who.int.pcmt",
+  "ig-ver" : "0.1.0",
+  "date" : "Sat, 01 Feb, 2025 22:46:12 +0000",
+  "dateISO8601" : "2025-02-01T22:46:12+00:00",
+  "errs" : 1,
+  "warnings" : 59,
+  "hints" : 13,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "5.0.0",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 3651312176
+}

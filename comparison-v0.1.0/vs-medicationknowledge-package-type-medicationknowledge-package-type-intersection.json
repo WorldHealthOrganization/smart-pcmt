@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4762e583-5d36-4312-9fb9-b6925d3c6493-36",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4762e583-5d36-4312-9fb9-b6925d3c6493-36",
+  "name" : "IntersectionmedicationKnowledge Package Type CodesAndmedicationKnowledge Package Type Codes",
+  "title" : "Intersection of Medication knowledge  package  type  codes And Medication knowledge  package  type  codes",
+  "status" : "draft",
+  "date" : "2026-02-18T13:42:32+00:00"
+}

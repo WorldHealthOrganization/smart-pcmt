@@ -1,0 +1,17 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "4762e583-5d36-4312-9fb9-b6925d3c6493-9",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4762e583-5d36-4312-9fb9-b6925d3c6493-9",
+  "name" : "IntersectionRegulatationTypeAndRegulatationType",
+  "title" : "Intersection of Product Regulation Type And Product Regulation Type",
+  "status" : "draft",
+  "date" : "2026-02-18T13:42:31+00:00",
+  "concept" : [{
+    "code" : "prequal",
+    "display" : "Pre-Qualified"
+  },
+  {
+    "code" : "auth_use",
+    "display" : "Authorized for use"
+  }]
+}

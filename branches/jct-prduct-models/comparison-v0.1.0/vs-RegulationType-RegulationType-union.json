@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "96009e00-052b-4155-9567-9338b362cbb8-35",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/96009e00-052b-4155-9567-9338b362cbb8-35",
+  "name" : "UnionRegulationTypeAndRegulationType",
+  "title" : "Union of Regulation Type for a Regulated Product And Regulation Type for a Regulated Product",
+  "status" : "draft",
+  "date" : "2025-07-28T13:07:23+00:00"
+}

@@ -1,0 +1,8 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://smart.who.int/pcmt/ValueSet/AttributeType,0.2.0,draft,,AttributeType,AttributeType for a Product,"Product status","StructureDefinition/Product","Internal"
+http://smart.who.int/pcmt/ValueSet/NameType,0.2.0,draft,,NameType,Name Type for a Product,"Product name type","StructureDefinition/Product","hl7.fhir.r4.core"
+http://smart.who.int/pcmt/ValueSet/ProductRelationship,0.2.0,draft,,ProductRelationship,Product Relationships,"Product relationship value set","StructureDefinition/Product","Internal"
+http://smart.who.int/pcmt/ValueSet/RegulationType,0.2.0,draft,,RegulationType,Regulation Type for a Regulated Product,"Regulated Product Regulation type","StructureDefinition/ProductAuthorization","Other"
+http://smart.who.int/pcmt/ValueSet/Status,0.2.0,draft,,Status,Status for a Product,"Product status","StructureDefinition/ProductAuthorization,StructureDefinition/Product","Internal"
+http://terminology.ehdsi.eu/ValueSet/eHDSIRouteofAdministration,8.1.0,active,"1.3.6.1.4.1.12559.11.10.1.3.1.42.12",eHDSIRouteofAdministration,eHDSI Route of Administration,"","StructureDefinition/Product","Other"
+http://terminology.hl7.org/ValueSet/v3-DispensableDrugForm,3.0.0,active,"2.16.840.1.113883.1.11.14412",DispensableDrugForm,DispensableDrugForm,"***No description***","StructureDefinition/Product","THO (V3)"

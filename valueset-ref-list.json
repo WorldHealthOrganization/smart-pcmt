@@ -1,0 +1,93 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/AttributeType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "AttributeType",
+      "title" : "AttributeType for a Product",
+      "description" : "Product status",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/AttributeType"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/NameType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "NameType",
+      "title" : "Name Type for a Product",
+      "description" : "Product name type",
+      "systems" : ["http://hl7.org/fhir/device-nametype"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/ProductRelationship",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ProductRelationship",
+      "title" : "Product Relationships",
+      "description" : "Product relationship value set",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/ProductRelationship"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/RegulationType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "RegulationType",
+      "title" : "Regulation Type for a Regulated Product",
+      "description" : "Regulated Product Regulation type",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/RegulationType"],
+      "uses" : {
+      },
+      "StructureDefinition-ProductAuthorization.html" : "Product Authorization"
+    },
+    {
+      "url" : "http://smart.who.int/pcmt/ValueSet/Status",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "Status",
+      "title" : "Status for a Product",
+      "description" : "Product status",
+      "systems" : ["http://smart.who.int/pcmt/CodeSystem/Status"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product",
+      "StructureDefinition-ProductAuthorization.html" : "Product Authorization"
+    },
+    {
+      "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIRouteofAdministration",
+      "version" : "8.1.0",
+      "status" : "active",
+      "name" : "eHDSIRouteofAdministration",
+      "title" : "eHDSI Route of Administration",
+      "description" : "",
+      "systems" : ["http://standardterms.edqm.eu"],
+      "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.12"],
+      "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.12"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-DispensableDrugForm",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "DispensableDrugForm",
+      "title" : "DispensableDrugForm",
+      "description" : "***No description***",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"],
+      "oids" : ["2.16.840.1.113883.1.11.14412"],
+      "sources" : ["2.16.840.1.113883.1.11.14412"],
+      "uses" : {
+      },
+      "StructureDefinition-Product.html" : "Product"
+    }
+  ]
+}

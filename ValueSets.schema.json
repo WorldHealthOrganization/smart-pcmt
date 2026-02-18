@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "#/ValueSets.schema.json",
+  "title": "ValueSet Enumeration Schema",
+  "description": "JSON Schema defining the structure of the ValueSet enumeration endpoint response",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "valueset"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "schemas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "valueSetUrl": {
+            "type": "string"
+          },
+          "codeCount": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "filename",
+          "title",
+          "url"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "count",
+    "schemas"
+  ],
+  "example": {
+    "type": "valueset",
+    "count": 3,
+    "schemas": [
+      {
+        "filename": "ValueSet-Status.schema.json",
+        "id": "http://smart.who.int/pcmt/ValueSet-Status.schema.json",
+        "title": "Status for a Product Schema",
+        "description": "JSON Schema for Status for a Product ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "url": "./ValueSet-Status.schema.json",
+        "valueSetUrl": "http://smart.who.int/pcmt/ValueSet/Status",
+        "codeCount": 3
+      },
+      {
+        "filename": "ValueSet-AttributeType.schema.json",
+        "id": "http://smart.who.int/pcmt/ValueSet-AttributeType.schema.json",
+        "title": "AttributeType for a Product Schema",
+        "description": "JSON Schema for AttributeType for a Product ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "url": "./ValueSet-AttributeType.schema.json",
+        "valueSetUrl": "http://smart.who.int/pcmt/ValueSet/AttributeType",
+        "codeCount": 3
+      },
+      {
+        "filename": "ValueSet-ProductRelationship.schema.json",
+        "id": "http://smart.who.int/pcmt/ValueSet-ProductRelationship.schema.json",
+        "title": "Product Relationships Schema",
+        "description": "JSON Schema for Product Relationships ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "url": "./ValueSet-ProductRelationship.schema.json",
+        "valueSetUrl": "http://smart.who.int/pcmt/ValueSet/ProductRelationship",
+        "codeCount": 6
+      }
+    ]
+  }
+}

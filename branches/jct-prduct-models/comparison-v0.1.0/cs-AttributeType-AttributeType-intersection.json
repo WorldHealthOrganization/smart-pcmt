@@ -1,0 +1,18 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "96009e00-052b-4155-9567-9338b362cbb8-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/96009e00-052b-4155-9567-9338b362cbb8-3",
+  "name" : "IntersectionAttributeTypeAndAttributeType",
+  "title" : "Intersection of Attribute type of Products And Attribute type of Products",
+  "status" : "draft",
+  "date" : "2025-07-28T13:07:22+00:00",
+  "concept" : [{
+    "code" : "active"
+  },
+  {
+    "code" : "in-active"
+  },
+  {
+    "code" : "invalid"
+  }]
+}
