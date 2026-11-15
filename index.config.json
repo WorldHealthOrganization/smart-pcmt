@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "ec3d1cf7993b499e3362297f7fcbad2c79b66f80",
+          "ref": "bc3b379f71b0c443d3d8d7fab054a411f0e85f5e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -17,8 +17,7 @@
                 "smart-base-translations",
                 "library",
                 "methodologies",
-                "processes",
-                "smart-base-house-processes",
+                "collab",
                 "smart-base-artifact-index",
                 "tools",
                 "smart-base-themes",
@@ -42,9 +41,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "ec3d1cf7993b499e3362297f7fcbad2c79b66f80",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window to 2:30pm; smart-* PRs made merge-ready (owner); re-pin smart-pcmt's layers to the cascade set (Q-CONSENT-1 A, Q-CASCADE-FREEZE B)."
+              "on": "2026-11-15",
+              "ref": "bc3b379f71b0c443d3d8d7fab054a411f0e85f5e",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
             }
           }
         }
@@ -55,7 +54,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "d983238a48b267985b42c55dfc94b2a16a3109cf",
+          "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +63,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "d983238a48b267985b42c55dfc94b2a16a3109cf",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window until 2:30pm; smart-pcmt#1 lock coherence with smart-ra@59b8f1b needs fhir-harness, cat-harness and cat-harness-tools at their mains; Q-CONSENT-1 A."
+              "on": "2026-11-15",
+              "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
+              "evidence": "Re-pin smart-pcmt#5 to current main (folio-assistant-g4rf)"
             }
           }
         }
@@ -77,7 +76,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "cf722fb3f8623aa92872129a1788aa992a887e3f",
+          "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -101,9 +100,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "cf722fb3f8623aa92872129a1788aa992a887e3f",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window to 2:30pm; smart-* PRs made merge-ready (owner); re-pin smart-pcmt's layers to the cascade set (Q-CONSENT-1 A, Q-CASCADE-FREEZE B)."
+              "on": "2026-11-15",
+              "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
             }
           }
         }
@@ -114,7 +113,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
+          "ref": "6e996c79aa9e36991cd46106383a237ca68b75d8",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +128,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window to 2:30pm; smart-* PRs made merge-ready (owner); re-pin smart-pcmt's layers to the cascade set (Q-CONSENT-1 A, Q-CASCADE-FREEZE B)."
+              "on": "2026-11-15",
+              "ref": "6e996c79aa9e36991cd46106383a237ca68b75d8",
+              "evidence": "Re-pin smart-pcmt#5 to current main (folio-assistant-g4rf)"
             }
           }
         }
@@ -142,7 +141,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "4de2e3b1409781f3c069bc14eac1c0bd65b52740",
+          "ref": "58d3f3eedf2fd1e38c36f81523936e635c782888",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +156,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "4de2e3b1409781f3c069bc14eac1c0bd65b52740",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window until 2:30pm; smart-pcmt#1 lock coherence with smart-ra@59b8f1b needs fhir-harness, cat-harness and cat-harness-tools at their mains; Q-CONSENT-1 A."
+              "on": "2026-11-15",
+              "ref": "58d3f3eedf2fd1e38c36f81523936e635c782888",
+              "evidence": "Re-pin smart-pcmt#5 to current main (folio-assistant-g4rf)"
             }
           }
         }
@@ -170,7 +169,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "76c7d4ac263517d0ba87e346f953a9a106b78b0a",
+          "ref": "2d30ca6540e2587768323620735f4cfe90b57efc",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +181,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "76c7d4ac263517d0ba87e346f953a9a106b78b0a",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window until 2:30pm; smart-pcmt#1 lock coherence with smart-ra@59b8f1b needs fhir-harness, cat-harness and cat-harness-tools at their mains; Q-CONSENT-1 A."
+              "on": "2026-11-15",
+              "ref": "2d30ca6540e2587768323620735f4cfe90b57efc",
+              "evidence": "Re-pin smart-pcmt#5 to current main (folio-assistant-g4rf)"
             }
           }
         }
@@ -195,7 +194,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +203,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window to 2:30pm; smart-* PRs made merge-ready (owner); re-pin smart-pcmt's layers to the cascade set (Q-CONSENT-1 A, Q-CASCADE-FREEZE B)."
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
             }
           }
         }
@@ -217,7 +216,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +228,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
-              "evidence": "Owner litlfred, 2026-11-13: merge+repin window to 2:30pm; smart-* PRs made merge-ready (owner); re-pin smart-pcmt's layers to the cascade set (Q-CONSENT-1 A, Q-CASCADE-FREEZE B)."
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
             }
           }
         }
@@ -242,7 +241,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-ra",
-          "ref": "59b8f1b7b70e83b3c1578584f0cb81e9cb37cc30",
+          "ref": "5c8105126a0d440cad4856f3ff292bec1c61bee3",
           "overrides": {
             "dpi-h-ra": {
               "directories": [
@@ -278,9 +277,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "59b8f1b7b70e83b3c1578584f0cb81e9cb37cc30",
-              "evidence": "Owner litlfred, 2026-11-13 (card in this session): re-pin smart-pcmt option B, dpi-h-ra, dth-sc and dth-pc to each repo's main; Q-CONSENT-1 A."
+              "on": "2026-11-15",
+              "ref": "5c8105126a0d440cad4856f3ff292bec1c61bee3",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
             }
           }
         }
@@ -291,7 +290,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/dth-sc",
-          "ref": "79a8b286707c6b1a93461eda5716b78af89a7a4d",
+          "ref": "b6b6521140d1d114da4427073ef2898b91cb3aee",
           "overrides": {
             "dth-sc": {
               "directories": [
@@ -329,9 +328,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "79a8b286707c6b1a93461eda5716b78af89a7a4d",
-              "evidence": "Owner litlfred, 2026-11-13 (card in this session): re-pin smart-pcmt option B, dpi-h-ra, dth-sc and dth-pc to each repo's main; Q-CONSENT-1 A."
+              "on": "2026-11-15",
+              "ref": "b6b6521140d1d114da4427073ef2898b91cb3aee",
+              "evidence": "Re-pin smart-pcmt#5 to current main (folio-assistant-g4rf)"
             }
           }
         }
@@ -342,7 +341,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/dth-pc",
-          "ref": "9af78c51430de3c02e0b8ce37b6748e708e92b3b",
+          "ref": "759995708b3728466296cac4a4b53fadc4865919",
           "overrides": {
             "dth-pc": {
               "directories": [
@@ -383,9 +382,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "9af78c51430de3c02e0b8ce37b6748e708e92b3b",
-              "evidence": "Owner litlfred, 2026-11-13 (card in this session): smart-pcmt's dth-pc pin = A, the scaffold tip 9af78c5 (dth-pc main is a stub without a declaration); Q-CONSENT-1 A."
+              "on": "2026-11-15",
+              "ref": "759995708b3728466296cac4a4b53fadc4865919",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
             }
           }
         }
