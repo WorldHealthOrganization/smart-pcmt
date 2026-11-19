@@ -1,5 +1,6 @@
 {
   "$schema": "cat-harness-mount-lock/v1",
+  "pinnedAt": "2026-11-19T08:05:25Z",
   "mounts": [
     {
       "harness": "smart-base",
@@ -251,6 +252,13 @@
           "upstreamPath": "glossary",
           "treeDigest": "dc4d695f0861d92fc8417e2d1b98630bb3ac1e26c354be2d57a1407f2c9e61c3",
           "files": 2
+        },
+        {
+          "id": "dth-pc-docs",
+          "path": "dth-pc/docs",
+          "upstreamPath": "docs",
+          "treeDigest": "1f52688e587a5018fa5755b271a6fbb21807844c94f4395e8730e9233388c630",
+          "files": 4
         }
       ],
       "trust": {
@@ -280,6 +288,13 @@
           "upstreamPath": "glossary",
           "treeDigest": "a5042848725f3acfaa888842218a736a1996d66f0b280b5d6ef2f37fa488ca0d",
           "files": 1
+        },
+        {
+          "id": "dth-sc-docs",
+          "path": "dth-sc/docs",
+          "upstreamPath": "docs",
+          "treeDigest": "2be4169897f41ddb637fda90a5a80b8a683b09e4f5a031c15c15c4558fc4f790",
+          "files": 14
         }
       ],
       "trust": {

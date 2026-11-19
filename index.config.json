@@ -294,7 +294,8 @@
           "overrides": {
             "dth-sc": {
               "directories": [
-                "glossary"
+                "glossary",
+                "dth-sc-docs"
               ]
             },
             "dpi-h-ra": {
@@ -345,7 +346,8 @@
           "overrides": {
             "dth-pc": {
               "directories": [
-                "glossary"
+                "glossary",
+                "dth-pc-docs"
               ]
             },
             "dth-sc": {
