@@ -1,0 +1,458 @@
+{
+  "$schema": "folio-index-config/v1",
+  "instances": [
+    {
+      "name": "smart-base",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-base",
+          "ref": "9dd5c6fa6f89ed6b54e1ee0a584dc48bf9e4cbf0",
+          "overrides": {
+            "smart-base": {
+              "path": "smart-base",
+              "directories": [
+                "smart-base-qa-checkers",
+                "smart-base-block-kinds",
+                "smart-base-content-adapters",
+                "smart-base-translations",
+                "library",
+                "methodologies",
+                "collab",
+                "smart-base-artifact-index",
+                "tools",
+                "smart-base-themes",
+                "smart-base-docs",
+                "smart-base-document-kinds",
+                "smart-base-findings",
+                "smart-base-external-schemas",
+                "smart-base-platform",
+                "smart-base-typologies",
+                "smart-base-validators",
+                "smart-base-schemas",
+                "smart-base-content",
+                "smart-base-scripts",
+                "smart-base-skills",
+                "smart-base-scenarios",
+                "smart-base-code-lists"
+              ],
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-16",
+              "ref": "9dd5c6fa6f89ed6b54e1ee0a584dc48bf9e4cbf0",
+              "evidence": "litlfred 2026-11-16: merge-and-repin window to 23:17Z (owner 17:17Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge window 6 hrs'); re-pin cascade wave 3 catch-up"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "fhir-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/fhir-harness",
+          "ref": "b36c50cdb9baeb5f2d33bfed4ee320c6845f29e7",
+          "overrides": {
+            "fhir-harness": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-17",
+              "ref": "b36c50cdb9baeb5f2d33bfed4ee320c6845f29e7",
+              "evidence": "litlfred 2026-11-17: merge-and-repin window to 09:18Z (owner ~06:18Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge what green and ready')"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "who-iris",
+      "source": {
+        "remote": {
+          "repository": "litlfred/who-iris",
+          "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
+          "overrides": {
+            "who-iris": {
+              "whole": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-16",
+              "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "folio-assistant-core",
+      "source": {
+        "remote": {
+          "repository": "litlfred/folio-assistant-core",
+          "ref": "ff45c94570075215bb128d386ef00feacf0bbd61",
+          "overrides": {
+            "folio-assistant-core": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-17",
+              "ref": "ff45c94570075215bb128d386ef00feacf0bbd61",
+              "evidence": "litlfred 2026-11-17: merge-and-repin window to 09:18Z (owner ~06:18Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge what green and ready')"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness",
+          "ref": "99f173e2c2fe4aeaab6f0560339a0e9688b27fb1",
+          "overrides": {
+            "cat-harness": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-17",
+              "ref": "99f173e2c2fe4aeaab6f0560339a0e9688b27fb1",
+              "evidence": "litlfred 2026-11-17: merge-and-repin window to 09:18Z (owner ~06:18Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge what green and ready')"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness-tools",
+          "ref": "e194197e96df4db29fc71650e189c973a4d930cb",
+          "overrides": {
+            "cat-harness-tools": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-17",
+              "ref": "e194197e96df4db29fc71650e189c973a4d930cb",
+              "evidence": "litlfred 2026-11-17: merge-and-repin window to 09:18Z (owner ~06:18Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge what green and ready')"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+          "overrides": {
+            "bootstrap": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap-tools",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+          "overrides": {
+            "bootstrap-tools": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "Owner litlfred, 2026-11-15 (card Q-PB-1 A / G4 smart-pcmt#5): re-pin smart-pcmt's layers to current main (https://claude.ai/code/project/chan_017WNUkNK8kdDziPK58Pv6G9?solo=thread&thread=cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "dpi-h-ra",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-ra",
+          "ref": "4ff3621433dae8e6a44f303c043845f52d3f7fe8",
+          "overrides": {
+            "dpi-h-ra": {
+              "directories": [
+                "glossary",
+                "archimate"
+              ]
+            },
+            "who-iris": {
+              "skip": true
+            },
+            "smart-base": {
+              "skip": true
+            },
+            "fhir-harness": {
+              "skip": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-16",
+              "ref": "4ff3621433dae8e6a44f303c043845f52d3f7fe8",
+              "evidence": "litlfred 2026-11-16: merge-and-repin window to 23:17Z (owner 17:17Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge window 6 hrs'); re-pin cascade wave 3 catch-up"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "dth-sc",
+      "source": {
+        "remote": {
+          "repository": "litlfred/dth-sc",
+          "ref": "e30cbe6705ea8078e4b415c9c49bf4d80ee97c76",
+          "overrides": {
+            "dth-sc": {
+              "directories": [
+                "glossary"
+              ]
+            },
+            "dpi-h-ra": {
+              "skip": true
+            },
+            "who-iris": {
+              "skip": true
+            },
+            "smart-base": {
+              "skip": true
+            },
+            "fhir-harness": {
+              "skip": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-17",
+              "ref": "e30cbe6705ea8078e4b415c9c49bf4d80ee97c76",
+              "evidence": "litlfred 2026-11-17: merge-and-repin window to 09:18Z (owner ~06:18Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge what green and ready')"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "dth-pc",
+      "source": {
+        "remote": {
+          "repository": "litlfred/dth-pc",
+          "ref": "5624ca868700cdd36f4b6a82f5d99396102e584c",
+          "overrides": {
+            "dth-pc": {
+              "directories": [
+                "glossary"
+              ]
+            },
+            "dth-sc": {
+              "skip": true
+            },
+            "dpi-h-ra": {
+              "skip": true
+            },
+            "who-iris": {
+              "skip": true
+            },
+            "smart-base": {
+              "skip": true
+            },
+            "fhir-harness": {
+              "skip": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-17",
+              "ref": "5624ca868700cdd36f4b6a82f5d99396102e584c",
+              "evidence": "litlfred 2026-11-17: merge-and-repin window to 09:18Z (owner ~06:18Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge what green and ready')"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "smart-pcmt",
+      "source": {
+        "local": {
+          "at": "."
+        }
+      }
+    }
+  ],
+  "site": {
+    "landing": "smart-base",
+    "agentRun": true
+  },
+  "contentTypes": {
+    "dak": {
+      "resourceType": "DAK",
+      "resourceDefinition": "http://smart.who.int/base/StructureDefinition/DAK",
+      "id": "smart.who.int.pcmt",
+      "name": "SMARTPCMT",
+      "title": "SMART Product Catalog",
+      "description": "Data exchange specifications for Product Catalog supporting the SMART Guidelines",
+      "version": "0.2.0",
+      "status": "draft",
+      "publicationUrl": "https://smart.who.int/pcmt",
+      "previewUrl": "https://worldhealthorganization.github.io/smart-pcmt",
+      "canonicalUrl": "http://smart.who.int/pcmt",
+      "copyrightYear": "2023+",
+      "publisher": {
+        "name": "WHO",
+        "url": "http://who.int"
+      }
+    },
+    "ig": {
+      "_comment": "What this repository is, per the content types its layers register, copied in shape from litlfred/smart-immunizations (bean folio-assistant-cz17). `dak`: smart-base's DAK content type, values from sushi-config.yaml. `ig`: fhir-harness's `ig` content type; `include` lists every input/ entry present when the harness was added (2026-10-31), so nothing is dropped; sushi-config.yaml stays SUSHI's file.",
+      "include": [
+        "sushi-config.yaml",
+        "ig.ini",
+        "input/business-processes/",
+        "input/cql/",
+        "input/data/",
+        "input/decision-logic/",
+        "input/dictionary/",
+        "input/examples/",
+        "input/extensions/",
+        "input/fsh/",
+        "input/history/",
+        "input/ignoreWarnings.txt",
+        "input/images-source/",
+        "input/images/",
+        "input/indicators/",
+        "input/maps/",
+        "input/models/",
+        "input/pagecontent/",
+        "input/profiles/",
+        "input/resources/",
+        "input/scenarios/",
+        "input/scheduling-logic/",
+        "input/system-requirements/",
+        "input/testing/",
+        "input/vocabulary/",
+        "fsh-generated/",
+        "qa/ig-content-qa.json"
+      ]
+    }
+  }
+}
